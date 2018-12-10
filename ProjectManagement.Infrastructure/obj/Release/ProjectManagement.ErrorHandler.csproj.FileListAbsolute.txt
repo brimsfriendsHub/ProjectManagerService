@@ -1,0 +1,14 @@
+C:\FSE\FSE\ProjectManagementService\ProjectManagementService\ProjectManagement.Infrastructure\bin\Release\ProjectManagement.ErrorHandler.dll
+C:\FSE\FSE\ProjectManagementService\ProjectManagementService\ProjectManagement.Infrastructure\bin\Release\ProjectManagement.ErrorHandler.pdb
+C:\FSE\FSE\ProjectManagementService\ProjectManagementService\ProjectManagement.Infrastructure\bin\Release\Newtonsoft.Json.dll
+C:\FSE\FSE\ProjectManagementService\ProjectManagementService\ProjectManagement.Infrastructure\bin\Release\System.Net.Http.Formatting.dll
+C:\FSE\FSE\ProjectManagementService\ProjectManagementService\ProjectManagement.Infrastructure\bin\Release\System.Web.Cors.dll
+C:\FSE\FSE\ProjectManagementService\ProjectManagementService\ProjectManagement.Infrastructure\bin\Release\System.Web.Http.Cors.dll
+C:\FSE\FSE\ProjectManagementService\ProjectManagementService\ProjectManagement.Infrastructure\bin\Release\System.Web.Http.dll
+C:\FSE\FSE\ProjectManagementService\ProjectManagementService\ProjectManagement.Infrastructure\bin\Release\Newtonsoft.Json.xml
+C:\FSE\FSE\ProjectManagementService\ProjectManagementService\ProjectManagement.Infrastructure\bin\Release\System.Net.Http.Formatting.xml
+C:\FSE\FSE\ProjectManagementService\ProjectManagementService\ProjectManagement.Infrastructure\bin\Release\System.Web.Http.xml
+C:\FSE\FSE\ProjectManagementService\ProjectManagementService\ProjectManagement.Infrastructure\bin\Release\System.Web.Http.Cors.xml
+C:\FSE\FSE\ProjectManagementService\ProjectManagementService\ProjectManagement.Infrastructure\obj\Release\ProjectManagement.ErrorHandler.csprojResolveAssemblyReference.cache
+C:\FSE\FSE\ProjectManagementService\ProjectManagementService\ProjectManagement.Infrastructure\obj\Release\ProjectManagement.ErrorHandler.dll
+C:\FSE\FSE\ProjectManagementService\ProjectManagementService\ProjectManagement.Infrastructure\obj\Release\ProjectManagement.ErrorHandler.pdb

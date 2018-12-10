@@ -1,0 +1,13 @@
+C:\FSE\Backup\ProjectManagerServices\ProjectManager.Entities\obj\Debug\ProjectManager.Entities.dll
+C:\FSE\Backup\ProjectManagerServices\ProjectManager.Entities\obj\Debug\ProjectManager.Entities.pdb
+C:\FSE\Backup\ProjectManagerServices\ProjectManager.Entities\bin\Debug\ProjectManager.Entities.dll
+C:\FSE\Backup\ProjectManagerServices\ProjectManager.Entities\bin\Debug\ProjectManager.Entities.pdb
+C:\FSE\Backup\ProjectManagerServices\ProjectManager.Entities\bin\Debug\Newtonsoft.Json.dll
+C:\FSE\Backup\ProjectManagerServices\ProjectManager.Entities\bin\Debug\System.Net.Http.Formatting.dll
+C:\FSE\Backup\ProjectManagerServices\ProjectManager.Entities\bin\Debug\System.Web.Cors.dll
+C:\FSE\Backup\ProjectManagerServices\ProjectManager.Entities\bin\Debug\System.Web.Http.Cors.dll
+C:\FSE\Backup\ProjectManagerServices\ProjectManager.Entities\bin\Debug\System.Web.Http.dll
+C:\FSE\Backup\ProjectManagerServices\ProjectManager.Entities\bin\Debug\Newtonsoft.Json.xml
+C:\FSE\Backup\ProjectManagerServices\ProjectManager.Entities\bin\Debug\System.Net.Http.Formatting.xml
+C:\FSE\Backup\ProjectManagerServices\ProjectManager.Entities\bin\Debug\System.Web.Http.xml
+C:\FSE\Backup\ProjectManagerServices\ProjectManager.Entities\bin\Debug\System.Web.Http.Cors.xml

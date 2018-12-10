@@ -1,0 +1,1216 @@
+10/18/2018 2:27:06 AM INFO Request Uri: GET http://localhost:3758/v1/users, 
+Response: "[]"
+
+10/18/2018 3:35:35 AM INFO Request Uri: GET http://localhost:3758/api/UserDetail, 
+Response: "[]"
+
+10/18/2018 4:35:31 AM INFO Request Uri: GET http://localhost:3758/api/UserDetail, 
+Response: "[]"
+
+10/18/2018 4:49:03 AM INFO Request Uri: GET http://localhost:3758/api/UserDetail, 
+Response: "[]"
+
+10/18/2018 4:55:05 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[]"
+
+10/18/2018 4:55:14 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[]"
+
+10/18/2018 4:55:47 AM INFO Request Uri: OPTIONS http://localhost:3758/Api/UserDetail, 
+
+10/18/2018 4:55:55 AM INFO Request Uri: POST http://localhost:3758/Api/UserDetail, 
+Request: '{"userId":null,"firstName":"MahendraKumar ","lastName":"Muthu","employeeId":559924}'
+
+10/18/2018 4:55:59 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":1,\"FirstName\":\"MahendraKumar \",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":0}]"
+
+10/18/2018 4:55:59 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail/NaN, 
+Response: "{\"Message\":\"The request is invalid.\",\"MessageDetail\":\"The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Http.IHttpActionResult GetById(Int32)' in 'ProjecManagement.Services.Controllers.UserDetailController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.\"}"
+
+10/18/2018 4:55:59 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail/NaN, 
+Response: "{\"Message\":\"The request is invalid.\",\"MessageDetail\":\"The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Http.IHttpActionResult GetById(Int32)' in 'ProjecManagement.Services.Controllers.UserDetailController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.\"}"
+
+10/18/2018 4:56:07 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":1,\"FirstName\":\"MahendraKumar \",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":0}]"
+
+10/18/2018 4:56:10 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail/1, 
+Response: "{\"UserId\":1,\"FirstName\":\"MahendraKumar \",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":0}"
+
+10/18/2018 4:56:10 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail/1, 
+Response: "{\"UserId\":1,\"FirstName\":\"MahendraKumar \",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":0}"
+
+10/18/2018 4:56:18 AM INFO Request Uri: OPTIONS http://localhost:3758/Api/UserDetail, 
+
+10/18/2018 4:56:18 AM INFO Request Uri: POST http://localhost:3758/Api/UserDetail, 
+Request: '{"userId":1,"firstName":"MahendraKumar ","lastName":"Muthu","employeeId":559925}'
+
+10/18/2018 4:56:18 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail/NaN, 
+Response: "{\"Message\":\"The request is invalid.\",\"MessageDetail\":\"The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Http.IHttpActionResult GetById(Int32)' in 'ProjecManagement.Services.Controllers.UserDetailController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.\"}"
+
+10/18/2018 4:56:19 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":1,\"FirstName\":\"MahendraKumar \",\"LastName\":\"Muthu\",\"EmployeeId\":559925,\"ProjectId\":0,\"TaskId\":0}]"
+
+10/18/2018 4:56:19 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail/NaN, 
+Response: "{\"Message\":\"The request is invalid.\",\"MessageDetail\":\"The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Http.IHttpActionResult GetById(Int32)' in 'ProjecManagement.Services.Controllers.UserDetailController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.\"}"
+
+10/18/2018 4:56:35 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":1,\"FirstName\":\"MahendraKumar \",\"LastName\":\"Muthu\",\"EmployeeId\":559925,\"ProjectId\":0,\"TaskId\":0}]"
+
+10/18/2018 4:56:35 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":1,\"FirstName\":\"MahendraKumar \",\"LastName\":\"Muthu\",\"EmployeeId\":559925,\"ProjectId\":0,\"TaskId\":0}]"
+
+10/18/2018 4:57:02 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "{\"Message\":\"An error has occurred.\",\"ExceptionMessage\":\"No default Instance is registered and cannot be automatically determined for type 'ProjecManagement.BusinessLayer.Interface.IProjectDetails'\\r\\n\\r\\nThere is no configuration specified for ProjecManagement.BusinessLayer.Interface.IProjectDetails\\r\\n\\r\\n1.) new ProjectsController(*Default of IProjectDetails*)\\r\\n2.) ProjecManagement.Services.Controllers.ProjectsController\\r\\n3.) Instance of ProjecManagement.Services.Controllers.ProjectsController\\r\\n4.) Container.GetInstance(ProjecManagement.Services.Controllers.ProjectsController)\\r\\n\",\"ExceptionType\":\"StructureMap.StructureMapConfigurationException\",\"StackTrace\":\"   at lambda_method(Closure , IBuildSession , IContext )\\r\\n   at StructureMap.Building.BuildPlan.Build(IBuildSession session, IContext context)\\r\\n   at StructureMap.BuildSession.BuildNewInSession(Type pluginType, Instance instance)\\r\\n   at StructureMap.Pipeline.NulloTransientCache.Get(Type pluginType, Instance instance, IBuildSession session)\\r\\n   at StructureMap.BuildSession.ResolveFromLifecycle(Type pluginType, Instance instance)\\r\\n   at StructureMap.SessionCache.GetObject(Type pluginType, Instance instance, ILifecycle lifecycle)\\r\\n   at StructureMap.SessionCache.GetDefault(Type pluginType, IPipelineGraph pipelineGraph)\\r\\n   at StructureMap.Container.GetInstance(Type pluginType)\\r\\n   at ProjecManagement.Services.App_Start.HttpControllerActivatorFactory.Create(HttpRequestMessage request, HttpControllerDescriptor controllerDescriptor, Type controllerType) in C:\\\\FSE\\\\Backup\\\\ProjectManagementService\\\\ProjectManagement.Services\\\\App_Start\\\\HttpControllerActivatorFactory.cs:line 18\\r\\n   at System.Web.Http.Controllers.HttpControllerDescriptor.CreateController(HttpRequestMessage request)\\r\\n   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()\"}"
+
+10/18/2018 5:01:33 AM INFO Request Uri: OPTIONS http://localhost:3758/Api/ProjectDetail, 
+
+10/18/2018 5:01:33 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":1,\"FirstName\":\"MahendraKumar \",\"LastName\":\"Muthu\",\"EmployeeId\":559925,\"ProjectId\":0,\"TaskId\":0}]"
+
+10/18/2018 5:01:33 AM ERROR Reference Id: 06007b6b-20c8-4e81-89b4-30a9bac1b606, Details System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+
+10/18/2018 5:01:33 AM ERROR Reference Id: 6d5797e0-91e1-4f93-851b-ee096e895297, Details System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+
+10/18/2018 5:01:33 AM ERROR Reference Id: cf02cf0d-1aea-4189-884a-bd6757913bc4, Details System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+
+10/18/2018 5:01:33 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "{\"Message\":\"An error has occurred.\",\"ExceptionMessage\":\"No default Instance is registered and cannot be automatically determined for type 'ProjecManagement.BusinessLayer.Interface.IProjectDetails'\\r\\n\\r\\nThere is no configuration specified for ProjecManagement.BusinessLayer.Interface.IProjectDetails\\r\\n\\r\\n1.) new ProjectsController(*Default of IProjectDetails*)\\r\\n2.) ProjecManagement.Services.Controllers.ProjectsController\\r\\n3.) Instance of ProjecManagement.Services.Controllers.ProjectsController\\r\\n4.) Container.GetInstance(ProjecManagement.Services.Controllers.ProjectsController)\\r\\n\",\"ExceptionType\":\"StructureMap.StructureMapConfigurationException\",\"StackTrace\":\"   at lambda_method(Closure , IBuildSession , IContext )\\r\\n   at StructureMap.Building.BuildPlan.Build(IBuildSession session, IContext context)\\r\\n   at StructureMap.BuildSession.BuildNewInSession(Type pluginType, Instance instance)\\r\\n   at StructureMap.Pipeline.NulloTransientCache.Get(Type pluginType, Instance instance, IBuildSession session)\\r\\n   at StructureMap.BuildSession.ResolveFromLifecycle(Type pluginType, Instance instance)\\r\\n   at StructureMap.SessionCache.GetObject(Type pluginType, Instance instance, ILifecycle lifecycle)\\r\\n   at StructureMap.SessionCache.GetDefault(Type pluginType, IPipelineGraph pipelineGraph)\\r\\n   at StructureMap.Container.GetInstance(Type pluginType)\\r\\n   at ProjecManagement.Services.App_Start.HttpControllerActivatorFactory.Create(HttpRequestMessage request, HttpControllerDescriptor controllerDescriptor, Type controllerType) in C:\\\\FSE\\\\Backup\\\\ProjectManagementService\\\\ProjectManagement.Services\\\\App_Start\\\\HttpControllerActivatorFactory.cs:line 18\\r\\n   at System.Web.Http.Controllers.HttpControllerDescriptor.CreateController(HttpRequestMessage request)\\r\\n   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()\"}"
+
+10/18/2018 5:01:33 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "{\"Message\":\"An error has occurred.\",\"ExceptionMessage\":\"No default Instance is registered and cannot be automatically determined for type 'ProjecManagement.BusinessLayer.Interface.IProjectDetails'\\r\\n\\r\\nThere is no configuration specified for ProjecManagement.BusinessLayer.Interface.IProjectDetails\\r\\n\\r\\n1.) new ProjectsController(*Default of IProjectDetails*)\\r\\n2.) ProjecManagement.Services.Controllers.ProjectsController\\r\\n3.) Instance of ProjecManagement.Services.Controllers.ProjectsController\\r\\n4.) Container.GetInstance(ProjecManagement.Services.Controllers.ProjectsController)\\r\\n\",\"ExceptionType\":\"StructureMap.StructureMapConfigurationException\",\"StackTrace\":\"   at lambda_method(Closure , IBuildSession , IContext )\\r\\n   at StructureMap.Building.BuildPlan.Build(IBuildSession session, IContext context)\\r\\n   at StructureMap.BuildSession.BuildNewInSession(Type pluginType, Instance instance)\\r\\n   at StructureMap.Pipeline.NulloTransientCache.Get(Type pluginType, Instance instance, IBuildSession session)\\r\\n   at StructureMap.BuildSession.ResolveFromLifecycle(Type pluginType, Instance instance)\\r\\n   at StructureMap.SessionCache.GetObject(Type pluginType, Instance instance, ILifecycle lifecycle)\\r\\n   at StructureMap.SessionCache.GetDefault(Type pluginType, IPipelineGraph pipelineGraph)\\r\\n   at StructureMap.Container.GetInstance(Type pluginType)\\r\\n   at ProjecManagement.Services.App_Start.HttpControllerActivatorFactory.Create(HttpRequestMessage request, HttpControllerDescriptor controllerDescriptor, Type controllerType) in C:\\\\FSE\\\\Backup\\\\ProjectManagementService\\\\ProjectManagement.Services\\\\App_Start\\\\HttpControllerActivatorFactory.cs:line 18\\r\\n   at System.Web.Http.Controllers.HttpControllerDescriptor.CreateController(HttpRequestMessage request)\\r\\n   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()\"}"
+
+10/18/2018 5:01:35 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "{\"Message\":\"An error has occurred.\",\"ExceptionMessage\":\"No default Instance is registered and cannot be automatically determined for type 'ProjecManagement.BusinessLayer.Interface.IProjectDetails'\\r\\n\\r\\nThere is no configuration specified for ProjecManagement.BusinessLayer.Interface.IProjectDetails\\r\\n\\r\\n1.) new ProjectsController(*Default of IProjectDetails*)\\r\\n2.) ProjecManagement.Services.Controllers.ProjectsController\\r\\n3.) Instance of ProjecManagement.Services.Controllers.ProjectsController\\r\\n4.) Container.GetInstance(ProjecManagement.Services.Controllers.ProjectsController)\\r\\n\",\"ExceptionType\":\"StructureMap.StructureMapConfigurationException\",\"StackTrace\":\"   at lambda_method(Closure , IBuildSession , IContext )\\r\\n   at StructureMap.Building.BuildPlan.Build(IBuildSession session, IContext context)\\r\\n   at StructureMap.BuildSession.BuildNewInSession(Type pluginType, Instance instance)\\r\\n   at StructureMap.Pipeline.NulloTransientCache.Get(Type pluginType, Instance instance, IBuildSession session)\\r\\n   at StructureMap.BuildSession.ResolveFromLifecycle(Type pluginType, Instance instance)\\r\\n   at StructureMap.SessionCache.GetObject(Type pluginType, Instance instance, ILifecycle lifecycle)\\r\\n   at StructureMap.SessionCache.GetDefault(Type pluginType, IPipelineGraph pipelineGraph)\\r\\n   at StructureMap.Container.GetInstance(Type pluginType)\\r\\n   at ProjecManagement.Services.App_Start.HttpControllerActivatorFactory.Create(HttpRequestMessage request, HttpControllerDescriptor controllerDescriptor, Type controllerType) in C:\\\\FSE\\\\Backup\\\\ProjectManagementService\\\\ProjectManagement.Services\\\\App_Start\\\\HttpControllerActivatorFactory.cs:line 18\\r\\n   at System.Web.Http.Controllers.HttpControllerDescriptor.CreateController(HttpRequestMessage request)\\r\\n   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()\"}"
+
+10/18/2018 5:01:35 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "{\"Message\":\"A task was canceled.\",\"ReferenceId\":\"cf02cf0d-1aea-4189-884a-bd6757913bc4\",\"Details\":\"System.Threading.Tasks.TaskCanceledException: A task was canceled.\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()\"}"
+
+10/18/2018 5:01:35 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "{\"Message\":\"A task was canceled.\",\"ReferenceId\":\"6d5797e0-91e1-4f93-851b-ee096e895297\",\"Details\":\"System.Threading.Tasks.TaskCanceledException: A task was canceled.\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()\"}"
+
+10/18/2018 5:01:35 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":1,\"FirstName\":\"MahendraKumar \",\"LastName\":\"Muthu\",\"EmployeeId\":559925,\"ProjectId\":0,\"TaskId\":0}]"
+
+10/18/2018 5:01:35 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "{\"Message\":\"A task was canceled.\",\"ReferenceId\":\"06007b6b-20c8-4e81-89b4-30a9bac1b606\",\"Details\":\"System.Threading.Tasks.TaskCanceledException: A task was canceled.\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()\"}"
+
+10/18/2018 5:01:35 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":1,\"FirstName\":\"MahendraKumar \",\"LastName\":\"Muthu\",\"EmployeeId\":559925,\"ProjectId\":0,\"TaskId\":0}]"
+
+10/18/2018 5:01:39 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":1,\"FirstName\":\"MahendraKumar \",\"LastName\":\"Muthu\",\"EmployeeId\":559925,\"ProjectId\":0,\"TaskId\":0}]"
+
+10/18/2018 5:01:39 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":1,\"FirstName\":\"MahendraKumar \",\"LastName\":\"Muthu\",\"EmployeeId\":559925,\"ProjectId\":0,\"TaskId\":0}]"
+
+10/18/2018 5:02:48 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "{\"Message\":\"An error has occurred.\",\"ExceptionMessage\":\"No default Instance is registered and cannot be automatically determined for type 'ProjecManagement.BusinessLayer.Interface.IProjectDetails'\\r\\n\\r\\nThere is no configuration specified for ProjecManagement.BusinessLayer.Interface.IProjectDetails\\r\\n\\r\\n1.) new ProjectsController(*Default of IProjectDetails*)\\r\\n2.) ProjecManagement.Services.Controllers.ProjectsController\\r\\n3.) Instance of ProjecManagement.Services.Controllers.ProjectsController\\r\\n4.) Container.GetInstance(ProjecManagement.Services.Controllers.ProjectsController)\\r\\n\",\"ExceptionType\":\"StructureMap.StructureMapConfigurationException\",\"StackTrace\":\"   at lambda_method(Closure , IBuildSession , IContext )\\r\\n   at StructureMap.Building.BuildPlan.Build(IBuildSession session, IContext context)\\r\\n   at StructureMap.BuildSession.BuildNewInSession(Type pluginType, Instance instance)\\r\\n   at StructureMap.Pipeline.NulloTransientCache.Get(Type pluginType, Instance instance, IBuildSession session)\\r\\n   at StructureMap.BuildSession.ResolveFromLifecycle(Type pluginType, Instance instance)\\r\\n   at StructureMap.SessionCache.GetObject(Type pluginType, Instance instance, ILifecycle lifecycle)\\r\\n   at StructureMap.SessionCache.GetDefault(Type pluginType, IPipelineGraph pipelineGraph)\\r\\n   at StructureMap.Container.GetInstance(Type pluginType)\\r\\n   at ProjecManagement.Services.App_Start.HttpControllerActivatorFactory.Create(HttpRequestMessage request, HttpControllerDescriptor controllerDescriptor, Type controllerType) in C:\\\\FSE\\\\Backup\\\\ProjectManagementService\\\\ProjectManagement.Services\\\\App_Start\\\\HttpControllerActivatorFactory.cs:line 18\\r\\n   at System.Web.Http.Controllers.HttpControllerDescriptor.CreateController(HttpRequestMessage request)\\r\\n   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()\"}"
+
+10/18/2018 5:04:10 AM INFO Request Uri: OPTIONS http://localhost:3758/Api/ProjectDetail, 
+
+10/18/2018 5:04:13 AM INFO Request Uri: OPTIONS http://localhost:3758/Api/ProjectDetail, 
+
+10/18/2018 5:04:15 AM INFO Request Uri: POST http://localhost:3758/Api/ProjectDetail, 
+Request: '{"projectId":0,"projectName":"fds","setStartAndEndDate":true,"startDate":"2018-10-18","endDate":"2018-10-19","priority":0,"manager":"MahendraKumar  Muthu","userId":1}'
+Response: "{\"Message\":\"An error has occurred.\",\"ExceptionMessage\":\"No default Instance is registered and cannot be automatically determined for type 'ProjecManagement.BusinessLayer.Interface.IProjectDetails'\\r\\n\\r\\nThere is no configuration specified for ProjecManagement.BusinessLayer.Interface.IProjectDetails\\r\\n\\r\\n1.) new ProjectsController(*Default of IProjectDetails*)\\r\\n2.) ProjecManagement.Services.Controllers.ProjectsController\\r\\n3.) Instance of ProjecManagement.Services.Controllers.ProjectsController\\r\\n4.) Container.GetInstance(ProjecManagement.Services.Controllers.ProjectsController)\\r\\n\",\"ExceptionType\":\"StructureMap.StructureMapConfigurationException\",\"StackTrace\":\"   at lambda_method(Closure , IBuildSession , IContext )\\r\\n   at StructureMap.Building.BuildPlan.Build(IBuildSession session, IContext context)\\r\\n   at StructureMap.BuildSession.BuildNewInSession(Type pluginType, Instance instance)\\r\\n   at StructureMap.Pipeline.NulloTransientCache.Get(Type pluginType, Instance instance, IBuildSession session)\\r\\n   at StructureMap.BuildSession.ResolveFromLifecycle(Type pluginType, Instance instance)\\r\\n   at StructureMap.SessionCache.GetObject(Type pluginType, Instance instance, ILifecycle lifecycle)\\r\\n   at StructureMap.SessionCache.GetDefault(Type pluginType, IPipelineGraph pipelineGraph)\\r\\n   at StructureMap.Container.GetInstance(Type pluginType)\\r\\n   at ProjecManagement.Services.App_Start.HttpControllerActivatorFactory.Create(HttpRequestMessage request, HttpControllerDescriptor controllerDescriptor, Type controllerType) in C:\\\\FSE\\\\Backup\\\\ProjectManagementService\\\\ProjectManagement.Services\\\\App_Start\\\\HttpControllerActivatorFactory.cs:line 18\\r\\n   at System.Web.Http.Controllers.HttpControllerDescriptor.CreateController(HttpRequestMessage request)\\r\\n   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()\"}"
+
+10/18/2018 5:04:16 AM INFO Request Uri: POST http://localhost:3758/Api/ProjectDetail, 
+Request: '{"projectId":0,"projectName":"fds","setStartAndEndDate":true,"startDate":"2018-10-18","endDate":"2018-10-19","priority":0,"manager":"MahendraKumar  Muthu","userId":1}'
+Response: "{\"Message\":\"An error has occurred.\",\"ExceptionMessage\":\"No default Instance is registered and cannot be automatically determined for type 'ProjecManagement.BusinessLayer.Interface.IProjectDetails'\\r\\n\\r\\nThere is no configuration specified for ProjecManagement.BusinessLayer.Interface.IProjectDetails\\r\\n\\r\\n1.) new ProjectsController(*Default of IProjectDetails*)\\r\\n2.) ProjecManagement.Services.Controllers.ProjectsController\\r\\n3.) Instance of ProjecManagement.Services.Controllers.ProjectsController\\r\\n4.) Container.GetInstance(ProjecManagement.Services.Controllers.ProjectsController)\\r\\n\",\"ExceptionType\":\"StructureMap.StructureMapConfigurationException\",\"StackTrace\":\"   at lambda_method(Closure , IBuildSession , IContext )\\r\\n   at StructureMap.Building.BuildPlan.Build(IBuildSession session, IContext context)\\r\\n   at StructureMap.BuildSession.BuildNewInSession(Type pluginType, Instance instance)\\r\\n   at StructureMap.Pipeline.NulloTransientCache.Get(Type pluginType, Instance instance, IBuildSession session)\\r\\n   at StructureMap.BuildSession.ResolveFromLifecycle(Type pluginType, Instance instance)\\r\\n   at StructureMap.SessionCache.GetObject(Type pluginType, Instance instance, ILifecycle lifecycle)\\r\\n   at StructureMap.SessionCache.GetDefault(Type pluginType, IPipelineGraph pipelineGraph)\\r\\n   at StructureMap.Container.GetInstance(Type pluginType)\\r\\n   at ProjecManagement.Services.App_Start.HttpControllerActivatorFactory.Create(HttpRequestMessage request, HttpControllerDescriptor controllerDescriptor, Type controllerType) in C:\\\\FSE\\\\Backup\\\\ProjectManagementService\\\\ProjectManagement.Services\\\\App_Start\\\\HttpControllerActivatorFactory.cs:line 18\\r\\n   at System.Web.Http.Controllers.HttpControllerDescriptor.CreateController(HttpRequestMessage request)\\r\\n   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()\"}"
+
+10/18/2018 5:05:04 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":1,\"FirstName\":\"MahendraKumar \",\"LastName\":\"Muthu\",\"EmployeeId\":559925,\"ProjectId\":0,\"TaskId\":0}]"
+
+10/18/2018 5:05:45 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":1,\"FirstName\":\"MahendraKumar \",\"LastName\":\"Muthu\",\"EmployeeId\":559925,\"ProjectId\":0,\"TaskId\":0}]"
+
+10/18/2018 5:05:45 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "{\"Message\":\"An error has occurred.\",\"ExceptionMessage\":\"No default Instance is registered and cannot be automatically determined for type 'ProjecManagement.BusinessLayer.Interface.IProjectDetails'\\r\\n\\r\\nThere is no configuration specified for ProjecManagement.BusinessLayer.Interface.IProjectDetails\\r\\n\\r\\n1.) new ProjectsController(*Default of IProjectDetails*)\\r\\n2.) ProjecManagement.Services.Controllers.ProjectsController\\r\\n3.) Instance of ProjecManagement.Services.Controllers.ProjectsController\\r\\n4.) Container.GetInstance(ProjecManagement.Services.Controllers.ProjectsController)\\r\\n\",\"ExceptionType\":\"StructureMap.StructureMapConfigurationException\",\"StackTrace\":\"   at lambda_method(Closure , IBuildSession , IContext )\\r\\n   at StructureMap.Building.BuildPlan.Build(IBuildSession session, IContext context)\\r\\n   at StructureMap.BuildSession.BuildNewInSession(Type pluginType, Instance instance)\\r\\n   at StructureMap.Pipeline.NulloTransientCache.Get(Type pluginType, Instance instance, IBuildSession session)\\r\\n   at StructureMap.BuildSession.ResolveFromLifecycle(Type pluginType, Instance instance)\\r\\n   at StructureMap.SessionCache.GetObject(Type pluginType, Instance instance, ILifecycle lifecycle)\\r\\n   at StructureMap.SessionCache.GetDefault(Type pluginType, IPipelineGraph pipelineGraph)\\r\\n   at StructureMap.Container.GetInstance(Type pluginType)\\r\\n   at ProjecManagement.Services.App_Start.HttpControllerActivatorFactory.Create(HttpRequestMessage request, HttpControllerDescriptor controllerDescriptor, Type controllerType) in C:\\\\FSE\\\\Backup\\\\ProjectManagementService\\\\ProjectManagement.Services\\\\App_Start\\\\HttpControllerActivatorFactory.cs:line 18\\r\\n   at System.Web.Http.Controllers.HttpControllerDescriptor.CreateController(HttpRequestMessage request)\\r\\n   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()\"}"
+
+10/18/2018 5:05:46 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":1,\"FirstName\":\"MahendraKumar \",\"LastName\":\"Muthu\",\"EmployeeId\":559925,\"ProjectId\":0,\"TaskId\":0}]"
+
+10/18/2018 5:05:59 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "{\"Message\":\"An error has occurred.\",\"ExceptionMessage\":\"No default Instance is registered and cannot be automatically determined for type 'ProjecManagement.BusinessLayer.Interface.IProjectDetails'\\r\\n\\r\\nThere is no configuration specified for ProjecManagement.BusinessLayer.Interface.IProjectDetails\\r\\n\\r\\n1.) new ProjectsController(*Default of IProjectDetails*)\\r\\n2.) ProjecManagement.Services.Controllers.ProjectsController\\r\\n3.) Instance of ProjecManagement.Services.Controllers.ProjectsController\\r\\n4.) Container.GetInstance(ProjecManagement.Services.Controllers.ProjectsController)\\r\\n\",\"ExceptionType\":\"StructureMap.StructureMapConfigurationException\",\"StackTrace\":\"   at lambda_method(Closure , IBuildSession , IContext )\\r\\n   at StructureMap.Building.BuildPlan.Build(IBuildSession session, IContext context)\\r\\n   at StructureMap.BuildSession.BuildNewInSession(Type pluginType, Instance instance)\\r\\n   at StructureMap.Pipeline.NulloTransientCache.Get(Type pluginType, Instance instance, IBuildSession session)\\r\\n   at StructureMap.BuildSession.ResolveFromLifecycle(Type pluginType, Instance instance)\\r\\n   at StructureMap.SessionCache.GetObject(Type pluginType, Instance instance, ILifecycle lifecycle)\\r\\n   at StructureMap.SessionCache.GetDefault(Type pluginType, IPipelineGraph pipelineGraph)\\r\\n   at StructureMap.Container.GetInstance(Type pluginType)\\r\\n   at ProjecManagement.Services.App_Start.HttpControllerActivatorFactory.Create(HttpRequestMessage request, HttpControllerDescriptor controllerDescriptor, Type controllerType) in C:\\\\FSE\\\\Backup\\\\ProjectManagementService\\\\ProjectManagement.Services\\\\App_Start\\\\HttpControllerActivatorFactory.cs:line 18\\r\\n   at System.Web.Http.Controllers.HttpControllerDescriptor.CreateController(HttpRequestMessage request)\\r\\n   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()\"}"
+
+10/18/2018 5:05:59 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":1,\"FirstName\":\"MahendraKumar \",\"LastName\":\"Muthu\",\"EmployeeId\":559925,\"ProjectId\":0,\"TaskId\":0}]"
+
+10/18/2018 5:06:01 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":1,\"FirstName\":\"MahendraKumar \",\"LastName\":\"Muthu\",\"EmployeeId\":559925,\"ProjectId\":0,\"TaskId\":0}]"
+
+10/18/2018 5:07:23 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail/parent-tasks, 
+Response: "{\"Message\":\"An error has occurred.\",\"ExceptionMessage\":\"No default Instance is registered and cannot be automatically determined for type 'ProjecManagement.BusinessLayer.Interface.ITaskDetails'\\r\\n\\r\\nThere is no configuration specified for ProjecManagement.BusinessLayer.Interface.ITaskDetails\\r\\n\\r\\n1.) new TasksController(*Default of ITaskDetails*)\\r\\n2.) ProjecManagement.Services.Controllers.TasksController\\r\\n3.) Instance of ProjecManagement.Services.Controllers.TasksController\\r\\n4.) Container.GetInstance(ProjecManagement.Services.Controllers.TasksController)\\r\\n\",\"ExceptionType\":\"StructureMap.StructureMapConfigurationException\",\"StackTrace\":\"   at lambda_method(Closure , IBuildSession , IContext )\\r\\n   at StructureMap.Building.BuildPlan.Build(IBuildSession session, IContext context)\\r\\n   at StructureMap.BuildSession.BuildNewInSession(Type pluginType, Instance instance)\\r\\n   at StructureMap.Pipeline.NulloTransientCache.Get(Type pluginType, Instance instance, IBuildSession session)\\r\\n   at StructureMap.BuildSession.ResolveFromLifecycle(Type pluginType, Instance instance)\\r\\n   at StructureMap.SessionCache.GetObject(Type pluginType, Instance instance, ILifecycle lifecycle)\\r\\n   at StructureMap.SessionCache.GetDefault(Type pluginType, IPipelineGraph pipelineGraph)\\r\\n   at StructureMap.Container.GetInstance(Type pluginType)\\r\\n   at ProjecManagement.Services.App_Start.HttpControllerActivatorFactory.Create(HttpRequestMessage request, HttpControllerDescriptor controllerDescriptor, Type controllerType) in C:\\\\FSE\\\\Backup\\\\ProjectManagementService\\\\ProjectManagement.Services\\\\App_Start\\\\HttpControllerActivatorFactory.cs:line 18\\r\\n   at System.Web.Http.Controllers.HttpControllerDescriptor.CreateController(HttpRequestMessage request)\\r\\n   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()\"}"
+
+10/18/2018 5:07:24 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail/parent-tasks, 
+Response: "{\"Message\":\"An error has occurred.\",\"ExceptionMessage\":\"No default Instance is registered and cannot be automatically determined for type 'ProjecManagement.BusinessLayer.Interface.ITaskDetails'\\r\\n\\r\\nThere is no configuration specified for ProjecManagement.BusinessLayer.Interface.ITaskDetails\\r\\n\\r\\n1.) new TasksController(*Default of ITaskDetails*)\\r\\n2.) ProjecManagement.Services.Controllers.TasksController\\r\\n3.) Instance of ProjecManagement.Services.Controllers.TasksController\\r\\n4.) Container.GetInstance(ProjecManagement.Services.Controllers.TasksController)\\r\\n\",\"ExceptionType\":\"StructureMap.StructureMapConfigurationException\",\"StackTrace\":\"   at lambda_method(Closure , IBuildSession , IContext )\\r\\n   at StructureMap.Building.BuildPlan.Build(IBuildSession session, IContext context)\\r\\n   at StructureMap.BuildSession.BuildNewInSession(Type pluginType, Instance instance)\\r\\n   at StructureMap.Pipeline.NulloTransientCache.Get(Type pluginType, Instance instance, IBuildSession session)\\r\\n   at StructureMap.BuildSession.ResolveFromLifecycle(Type pluginType, Instance instance)\\r\\n   at StructureMap.SessionCache.GetObject(Type pluginType, Instance instance, ILifecycle lifecycle)\\r\\n   at StructureMap.SessionCache.GetDefault(Type pluginType, IPipelineGraph pipelineGraph)\\r\\n   at StructureMap.Container.GetInstance(Type pluginType)\\r\\n   at ProjecManagement.Services.App_Start.HttpControllerActivatorFactory.Create(HttpRequestMessage request, HttpControllerDescriptor controllerDescriptor, Type controllerType) in C:\\\\FSE\\\\Backup\\\\ProjectManagementService\\\\ProjectManagement.Services\\\\App_Start\\\\HttpControllerActivatorFactory.cs:line 18\\r\\n   at System.Web.Http.Controllers.HttpControllerDescriptor.CreateController(HttpRequestMessage request)\\r\\n   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()\"}"
+
+10/18/2018 5:07:24 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "{\"Message\":\"An error has occurred.\",\"ExceptionMessage\":\"No default Instance is registered and cannot be automatically determined for type 'ProjecManagement.BusinessLayer.Interface.IProjectDetails'\\r\\n\\r\\nThere is no configuration specified for ProjecManagement.BusinessLayer.Interface.IProjectDetails\\r\\n\\r\\n1.) new ProjectsController(*Default of IProjectDetails*)\\r\\n2.) ProjecManagement.Services.Controllers.ProjectsController\\r\\n3.) Instance of ProjecManagement.Services.Controllers.ProjectsController\\r\\n4.) Container.GetInstance(ProjecManagement.Services.Controllers.ProjectsController)\\r\\n\",\"ExceptionType\":\"StructureMap.StructureMapConfigurationException\",\"StackTrace\":\"   at lambda_method(Closure , IBuildSession , IContext )\\r\\n   at StructureMap.Building.BuildPlan.Build(IBuildSession session, IContext context)\\r\\n   at StructureMap.BuildSession.BuildNewInSession(Type pluginType, Instance instance)\\r\\n   at StructureMap.Pipeline.NulloTransientCache.Get(Type pluginType, Instance instance, IBuildSession session)\\r\\n   at StructureMap.BuildSession.ResolveFromLifecycle(Type pluginType, Instance instance)\\r\\n   at StructureMap.SessionCache.GetObject(Type pluginType, Instance instance, ILifecycle lifecycle)\\r\\n   at StructureMap.SessionCache.GetDefault(Type pluginType, IPipelineGraph pipelineGraph)\\r\\n   at StructureMap.Container.GetInstance(Type pluginType)\\r\\n   at ProjecManagement.Services.App_Start.HttpControllerActivatorFactory.Create(HttpRequestMessage request, HttpControllerDescriptor controllerDescriptor, Type controllerType) in C:\\\\FSE\\\\Backup\\\\ProjectManagementService\\\\ProjectManagement.Services\\\\App_Start\\\\HttpControllerActivatorFactory.cs:line 18\\r\\n   at System.Web.Http.Controllers.HttpControllerDescriptor.CreateController(HttpRequestMessage request)\\r\\n   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()\"}"
+
+10/18/2018 5:07:24 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "{\"Message\":\"An error has occurred.\",\"ExceptionMessage\":\"No default Instance is registered and cannot be automatically determined for type 'ProjecManagement.BusinessLayer.Interface.IProjectDetails'\\r\\n\\r\\nThere is no configuration specified for ProjecManagement.BusinessLayer.Interface.IProjectDetails\\r\\n\\r\\n1.) new ProjectsController(*Default of IProjectDetails*)\\r\\n2.) ProjecManagement.Services.Controllers.ProjectsController\\r\\n3.) Instance of ProjecManagement.Services.Controllers.ProjectsController\\r\\n4.) Container.GetInstance(ProjecManagement.Services.Controllers.ProjectsController)\\r\\n\",\"ExceptionType\":\"StructureMap.StructureMapConfigurationException\",\"StackTrace\":\"   at lambda_method(Closure , IBuildSession , IContext )\\r\\n   at StructureMap.Building.BuildPlan.Build(IBuildSession session, IContext context)\\r\\n   at StructureMap.BuildSession.BuildNewInSession(Type pluginType, Instance instance)\\r\\n   at StructureMap.Pipeline.NulloTransientCache.Get(Type pluginType, Instance instance, IBuildSession session)\\r\\n   at StructureMap.BuildSession.ResolveFromLifecycle(Type pluginType, Instance instance)\\r\\n   at StructureMap.SessionCache.GetObject(Type pluginType, Instance instance, ILifecycle lifecycle)\\r\\n   at StructureMap.SessionCache.GetDefault(Type pluginType, IPipelineGraph pipelineGraph)\\r\\n   at StructureMap.Container.GetInstance(Type pluginType)\\r\\n   at ProjecManagement.Services.App_Start.HttpControllerActivatorFactory.Create(HttpRequestMessage request, HttpControllerDescriptor controllerDescriptor, Type controllerType) in C:\\\\FSE\\\\Backup\\\\ProjectManagementService\\\\ProjectManagement.Services\\\\App_Start\\\\HttpControllerActivatorFactory.cs:line 18\\r\\n   at System.Web.Http.Controllers.HttpControllerDescriptor.CreateController(HttpRequestMessage request)\\r\\n   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()\"}"
+
+10/18/2018 5:07:24 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":1,\"FirstName\":\"MahendraKumar \",\"LastName\":\"Muthu\",\"EmployeeId\":559925,\"ProjectId\":0,\"TaskId\":0}]"
+
+10/18/2018 5:07:24 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":1,\"FirstName\":\"MahendraKumar \",\"LastName\":\"Muthu\",\"EmployeeId\":559925,\"ProjectId\":0,\"TaskId\":0}]"
+
+10/18/2018 5:09:25 AM ERROR Reference Id: 5f5613c9-0a27-411c-9b34-db560713d4fb, Details System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+
+10/18/2018 5:09:25 AM ERROR Reference Id: ba6a90c3-e66c-4666-9a04-b0cafbc7da8b, Details System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+
+10/18/2018 5:09:26 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "{\"Message\":\"An error has occurred.\",\"ExceptionMessage\":\"No default Instance is registered and cannot be automatically determined for type 'ProjecManagement.BusinessLayer.Interface.IProjectDetails'\\r\\n\\r\\nThere is no configuration specified for ProjecManagement.BusinessLayer.Interface.IProjectDetails\\r\\n\\r\\n1.) new ProjectsController(*Default of IProjectDetails*)\\r\\n2.) ProjecManagement.Services.Controllers.ProjectsController\\r\\n3.) Instance of ProjecManagement.Services.Controllers.ProjectsController\\r\\n4.) Container.GetInstance(ProjecManagement.Services.Controllers.ProjectsController)\\r\\n\",\"ExceptionType\":\"StructureMap.StructureMapConfigurationException\",\"StackTrace\":\"   at lambda_method(Closure , IBuildSession , IContext )\\r\\n   at StructureMap.Building.BuildPlan.Build(IBuildSession session, IContext context)\\r\\n   at StructureMap.BuildSession.BuildNewInSession(Type pluginType, Instance instance)\\r\\n   at StructureMap.Pipeline.NulloTransientCache.Get(Type pluginType, Instance instance, IBuildSession session)\\r\\n   at StructureMap.BuildSession.ResolveFromLifecycle(Type pluginType, Instance instance)\\r\\n   at StructureMap.SessionCache.GetObject(Type pluginType, Instance instance, ILifecycle lifecycle)\\r\\n   at StructureMap.SessionCache.GetDefault(Type pluginType, IPipelineGraph pipelineGraph)\\r\\n   at StructureMap.Container.GetInstance(Type pluginType)\\r\\n   at ProjecManagement.Services.App_Start.HttpControllerActivatorFactory.Create(HttpRequestMessage request, HttpControllerDescriptor controllerDescriptor, Type controllerType) in C:\\\\FSE\\\\Backup\\\\ProjectManagementService\\\\ProjectManagement.Services\\\\App_Start\\\\HttpControllerActivatorFactory.cs:line 18\\r\\n   at System.Web.Http.Controllers.HttpControllerDescriptor.CreateController(HttpRequestMessage request)\\r\\n   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()\"}"
+
+10/18/2018 5:09:26 AM ERROR Reference Id: f26aea48-4103-4ab5-aa37-ead3af4cd06a, Details System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+
+10/18/2018 5:09:26 AM ERROR Reference Id: 7f6b7ab3-204f-48b0-9b9d-457a2286f0e4, Details System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+
+10/18/2018 5:09:26 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "{\"Message\":\"An error has occurred.\",\"ExceptionMessage\":\"No default Instance is registered and cannot be automatically determined for type 'ProjecManagement.BusinessLayer.Interface.IProjectDetails'\\r\\n\\r\\nThere is no configuration specified for ProjecManagement.BusinessLayer.Interface.IProjectDetails\\r\\n\\r\\n1.) new ProjectsController(*Default of IProjectDetails*)\\r\\n2.) ProjecManagement.Services.Controllers.ProjectsController\\r\\n3.) Instance of ProjecManagement.Services.Controllers.ProjectsController\\r\\n4.) Container.GetInstance(ProjecManagement.Services.Controllers.ProjectsController)\\r\\n\",\"ExceptionType\":\"StructureMap.StructureMapConfigurationException\",\"StackTrace\":\"   at lambda_method(Closure , IBuildSession , IContext )\\r\\n   at StructureMap.Building.BuildPlan.Build(IBuildSession session, IContext context)\\r\\n   at StructureMap.BuildSession.BuildNewInSession(Type pluginType, Instance instance)\\r\\n   at StructureMap.Pipeline.NulloTransientCache.Get(Type pluginType, Instance instance, IBuildSession session)\\r\\n   at StructureMap.BuildSession.ResolveFromLifecycle(Type pluginType, Instance instance)\\r\\n   at StructureMap.SessionCache.GetObject(Type pluginType, Instance instance, ILifecycle lifecycle)\\r\\n   at StructureMap.SessionCache.GetDefault(Type pluginType, IPipelineGraph pipelineGraph)\\r\\n   at StructureMap.Container.GetInstance(Type pluginType)\\r\\n   at ProjecManagement.Services.App_Start.HttpControllerActivatorFactory.Create(HttpRequestMessage request, HttpControllerDescriptor controllerDescriptor, Type controllerType) in C:\\\\FSE\\\\Backup\\\\ProjectManagementService\\\\ProjectManagement.Services\\\\App_Start\\\\HttpControllerActivatorFactory.cs:line 18\\r\\n   at System.Web.Http.Controllers.HttpControllerDescriptor.CreateController(HttpRequestMessage request)\\r\\n   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()\"}"
+
+10/18/2018 5:09:26 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "{\"Message\":\"A task was canceled.\",\"ReferenceId\":\"5f5613c9-0a27-411c-9b34-db560713d4fb\",\"Details\":\"System.Threading.Tasks.TaskCanceledException: A task was canceled.\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()\"}"
+
+10/18/2018 5:09:26 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":1,\"FirstName\":\"MahendraKumar \",\"LastName\":\"Muthu\",\"EmployeeId\":559925,\"ProjectId\":0,\"TaskId\":0}]"
+
+10/18/2018 5:10:45 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":1,\"FirstName\":\"MahendraKumar \",\"LastName\":\"Muthu\",\"EmployeeId\":559925,\"ProjectId\":0,\"TaskId\":0}]"
+
+10/18/2018 5:19:14 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "<ArrayOfProjectViewModel xmlns:i=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"http://schemas.datacontract.org/2004/07/ProjecManagement.BusinessLayer.ViewModel\"><ProjectViewModel><Completed>Yes</Completed><EndDate>2019-12-20T00:00:00</EndDate><Manager></Manager><NumberOfTasks>0</NumberOfTasks><Priority>40</Priority><ProjectId>1</ProjectId><ProjectName>AA</ProjectName><StartDate>2018-07-01T00:00:00</StartDate><UserId>0</UserId></ProjectViewModel></ArrayOfProjectViewModel>"
+
+10/18/2018 5:19:27 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":1,\"FirstName\":\"MahendraKumar \",\"LastName\":\"Muthu\",\"EmployeeId\":559925,\"ProjectId\":0,\"TaskId\":0}]"
+
+10/18/2018 5:19:27 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"AA\",\"StartDate\":\"2018-07-01T00:00:00\",\"EndDate\":\"2019-12-20T00:00:00\",\"Priority\":40,\"Manager\":\"\",\"UserId\":0,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}]"
+
+10/18/2018 5:19:28 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":1,\"FirstName\":\"MahendraKumar \",\"LastName\":\"Muthu\",\"EmployeeId\":559925,\"ProjectId\":0,\"TaskId\":0}]"
+
+10/18/2018 5:19:34 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail/1, 
+Response: "{\"ProjectId\":1,\"ProjectName\":\"AA\",\"StartDate\":\"2018-07-01T00:00:00\",\"EndDate\":\"2019-12-20T00:00:00\",\"Priority\":40,\"Manager\":\"\",\"UserId\":0,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}"
+
+10/18/2018 5:19:34 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail/1, 
+Response: "{\"ProjectId\":1,\"ProjectName\":\"AA\",\"StartDate\":\"2018-07-01T00:00:00\",\"EndDate\":\"2019-12-20T00:00:00\",\"Priority\":40,\"Manager\":\"\",\"UserId\":0,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}"
+
+10/18/2018 5:19:59 AM INFO Request Uri: OPTIONS http://localhost:3758/Api/ProjectDetail, 
+
+10/18/2018 5:20:00 AM INFO Request Uri: POST http://localhost:3758/Api/ProjectDetail, 
+Request: '{"projectId":1,"projectName":"AA","setStartAndEndDate":false,"startDate":"2018-07-01","endDate":"2019-12-20","priority":40,"manager":"MahendraKumar  Muthu","userId":1}'
+
+10/18/2018 5:20:14 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":1,\"FirstName\":\"MahendraKumar \",\"LastName\":\"Muthu\",\"EmployeeId\":559925,\"ProjectId\":1,\"TaskId\":0}]"
+
+10/18/2018 5:20:14 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"AA\",\"StartDate\":\"2018-07-01T00:00:00\",\"EndDate\":\"2019-12-20T00:00:00\",\"Priority\":40,\"Manager\":\"MahendraKumar  Muthu\",\"UserId\":1,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}]"
+
+10/18/2018 5:20:15 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":1,\"FirstName\":\"MahendraKumar \",\"LastName\":\"Muthu\",\"EmployeeId\":559925,\"ProjectId\":1,\"TaskId\":0}]"
+
+10/18/2018 5:20:36 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail/1, 
+Response: "{\"ProjectId\":1,\"ProjectName\":\"AA\",\"StartDate\":\"2018-07-01T00:00:00\",\"EndDate\":\"2019-12-20T00:00:00\",\"Priority\":40,\"Manager\":\"MahendraKumar  Muthu\",\"UserId\":1,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}"
+
+10/18/2018 5:20:50 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail/1, 
+Response: "{\"ProjectId\":1,\"ProjectName\":\"AA\",\"StartDate\":\"2018-07-01T00:00:00\",\"EndDate\":\"2019-12-20T00:00:00\",\"Priority\":40,\"Manager\":\"MahendraKumar  Muthu\",\"UserId\":1,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}"
+
+10/18/2018 5:21:30 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":1,\"FirstName\":\"MahendraKumar \",\"LastName\":\"Muthu\",\"EmployeeId\":559925,\"ProjectId\":1,\"TaskId\":0}]"
+
+10/18/2018 5:21:31 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":1,\"FirstName\":\"MahendraKumar \",\"LastName\":\"Muthu\",\"EmployeeId\":559925,\"ProjectId\":1,\"TaskId\":0}]"
+
+10/18/2018 5:21:31 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"AA\",\"StartDate\":\"2018-07-01T00:00:00\",\"EndDate\":\"2019-12-20T00:00:00\",\"Priority\":40,\"Manager\":\"MahendraKumar  Muthu\",\"UserId\":1,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}]"
+
+10/18/2018 5:22:26 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail/parent-tasks, 
+Response: "{\"Message\":\"An error has occurred.\",\"ExceptionMessage\":\"No default Instance is registered and cannot be automatically determined for type 'ProjecManagement.BusinessLayer.Interface.ITaskDetails'\\r\\n\\r\\nThere is no configuration specified for ProjecManagement.BusinessLayer.Interface.ITaskDetails\\r\\n\\r\\n1.) new TasksController(*Default of ITaskDetails*)\\r\\n2.) ProjecManagement.Services.Controllers.TasksController\\r\\n3.) Instance of ProjecManagement.Services.Controllers.TasksController\\r\\n4.) Container.GetInstance(ProjecManagement.Services.Controllers.TasksController)\\r\\n\",\"ExceptionType\":\"StructureMap.StructureMapConfigurationException\",\"StackTrace\":\"   at lambda_method(Closure , IBuildSession , IContext )\\r\\n   at StructureMap.Building.BuildPlan.Build(IBuildSession session, IContext context)\\r\\n   at StructureMap.BuildSession.BuildNewInSession(Type pluginType, Instance instance)\\r\\n   at StructureMap.Pipeline.NulloTransientCache.Get(Type pluginType, Instance instance, IBuildSession session)\\r\\n   at StructureMap.BuildSession.ResolveFromLifecycle(Type pluginType, Instance instance)\\r\\n   at StructureMap.SessionCache.GetObject(Type pluginType, Instance instance, ILifecycle lifecycle)\\r\\n   at StructureMap.SessionCache.GetDefault(Type pluginType, IPipelineGraph pipelineGraph)\\r\\n   at StructureMap.Container.GetInstance(Type pluginType)\\r\\n   at ProjecManagement.Services.App_Start.HttpControllerActivatorFactory.Create(HttpRequestMessage request, HttpControllerDescriptor controllerDescriptor, Type controllerType) in C:\\\\FSE\\\\Backup\\\\ProjectManagementService\\\\ProjectManagement.Services\\\\App_Start\\\\HttpControllerActivatorFactory.cs:line 18\\r\\n   at System.Web.Http.Controllers.HttpControllerDescriptor.CreateController(HttpRequestMessage request)\\r\\n   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()\"}"
+
+10/18/2018 5:22:28 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail/parent-tasks, 
+Response: "{\"Message\":\"An error has occurred.\",\"ExceptionMessage\":\"No default Instance is registered and cannot be automatically determined for type 'ProjecManagement.BusinessLayer.Interface.ITaskDetails'\\r\\n\\r\\nThere is no configuration specified for ProjecManagement.BusinessLayer.Interface.ITaskDetails\\r\\n\\r\\n1.) new TasksController(*Default of ITaskDetails*)\\r\\n2.) ProjecManagement.Services.Controllers.TasksController\\r\\n3.) Instance of ProjecManagement.Services.Controllers.TasksController\\r\\n4.) Container.GetInstance(ProjecManagement.Services.Controllers.TasksController)\\r\\n\",\"ExceptionType\":\"StructureMap.StructureMapConfigurationException\",\"StackTrace\":\"   at lambda_method(Closure , IBuildSession , IContext )\\r\\n   at StructureMap.Building.BuildPlan.Build(IBuildSession session, IContext context)\\r\\n   at StructureMap.BuildSession.BuildNewInSession(Type pluginType, Instance instance)\\r\\n   at StructureMap.Pipeline.NulloTransientCache.Get(Type pluginType, Instance instance, IBuildSession session)\\r\\n   at StructureMap.BuildSession.ResolveFromLifecycle(Type pluginType, Instance instance)\\r\\n   at StructureMap.SessionCache.GetObject(Type pluginType, Instance instance, ILifecycle lifecycle)\\r\\n   at StructureMap.SessionCache.GetDefault(Type pluginType, IPipelineGraph pipelineGraph)\\r\\n   at StructureMap.Container.GetInstance(Type pluginType)\\r\\n   at ProjecManagement.Services.App_Start.HttpControllerActivatorFactory.Create(HttpRequestMessage request, HttpControllerDescriptor controllerDescriptor, Type controllerType) in C:\\\\FSE\\\\Backup\\\\ProjectManagementService\\\\ProjectManagement.Services\\\\App_Start\\\\HttpControllerActivatorFactory.cs:line 18\\r\\n   at System.Web.Http.Controllers.HttpControllerDescriptor.CreateController(HttpRequestMessage request)\\r\\n   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()\"}"
+
+10/18/2018 5:22:30 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":1,\"FirstName\":\"MahendraKumar \",\"LastName\":\"Muthu\",\"EmployeeId\":559925,\"ProjectId\":1,\"TaskId\":0}]"
+
+10/18/2018 5:22:30 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"AA\",\"StartDate\":\"2018-07-01T00:00:00\",\"EndDate\":\"2019-12-20T00:00:00\",\"Priority\":40,\"Manager\":\"MahendraKumar  Muthu\",\"UserId\":1,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}]"
+
+10/18/2018 5:22:33 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":1,\"FirstName\":\"MahendraKumar \",\"LastName\":\"Muthu\",\"EmployeeId\":559925,\"ProjectId\":1,\"TaskId\":0}]"
+
+10/18/2018 5:22:33 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"AA\",\"StartDate\":\"2018-07-01T00:00:00\",\"EndDate\":\"2019-12-20T00:00:00\",\"Priority\":40,\"Manager\":\"MahendraKumar  Muthu\",\"UserId\":1,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}]"
+
+10/18/2018 5:22:42 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":1,\"FirstName\":\"MahendraKumar \",\"LastName\":\"Muthu\",\"EmployeeId\":559925,\"ProjectId\":1,\"TaskId\":0}]"
+
+10/18/2018 5:22:43 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"AA\",\"StartDate\":\"2018-07-01T00:00:00\",\"EndDate\":\"2019-12-20T00:00:00\",\"Priority\":40,\"Manager\":\"MahendraKumar  Muthu\",\"UserId\":1,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}]"
+
+10/18/2018 5:22:43 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":1,\"FirstName\":\"MahendraKumar \",\"LastName\":\"Muthu\",\"EmployeeId\":559925,\"ProjectId\":1,\"TaskId\":0}]"
+
+10/18/2018 5:23:21 AM INFO Request Uri: OPTIONS http://localhost:3758/Api/ProjectDetail, 
+
+10/18/2018 5:23:22 AM INFO Request Uri: POST http://localhost:3758/Api/ProjectDetail, 
+Request: '{"projectId":0,"projectName":"MAH","setStartAndEndDate":true,"startDate":"2018-10-18","endDate":"2020-10-19","priority":0,"manager":"MahendraKumar  Muthu","userId":1}'
+
+10/18/2018 5:23:51 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":1,\"FirstName\":\"MahendraKumar \",\"LastName\":\"Muthu\",\"EmployeeId\":559925,\"ProjectId\":2,\"TaskId\":0}]"
+
+10/18/2018 5:23:52 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"AA\",\"StartDate\":\"2018-07-01T00:00:00\",\"EndDate\":\"2019-12-20T00:00:00\",\"Priority\":40,\"Manager\":\"\",\"UserId\":0,\"NumberOfTasks\":0,\"Completed\":\"Yes\"},{\"ProjectId\":2,\"ProjectName\":\"MAH\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2020-10-19T00:00:00\",\"Priority\":0,\"Manager\":\"MahendraKumar  Muthu\",\"UserId\":1,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}]"
+
+10/18/2018 5:23:52 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":1,\"FirstName\":\"MahendraKumar \",\"LastName\":\"Muthu\",\"EmployeeId\":559925,\"ProjectId\":2,\"TaskId\":0}]"
+
+10/18/2018 5:24:16 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":1,\"FirstName\":\"MahendraKumar \",\"LastName\":\"Muthu\",\"EmployeeId\":559925,\"ProjectId\":2,\"TaskId\":0}]"
+
+10/18/2018 5:24:17 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"AA\",\"StartDate\":\"2018-07-01T00:00:00\",\"EndDate\":\"2019-12-20T00:00:00\",\"Priority\":40,\"Manager\":\"\",\"UserId\":0,\"NumberOfTasks\":0,\"Completed\":\"Yes\"},{\"ProjectId\":2,\"ProjectName\":\"MAH\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2020-10-19T00:00:00\",\"Priority\":0,\"Manager\":\"MahendraKumar  Muthu\",\"UserId\":1,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}]"
+
+10/18/2018 5:24:17 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":1,\"FirstName\":\"MahendraKumar \",\"LastName\":\"Muthu\",\"EmployeeId\":559925,\"ProjectId\":2,\"TaskId\":0}]"
+
+10/18/2018 5:25:12 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail, 
+Response: "{\"Message\":\"An error has occurred.\",\"ExceptionMessage\":\"No default Instance is registered and cannot be automatically determined for type 'ProjecManagement.BusinessLayer.Interface.ITaskDetails'\\r\\n\\r\\nThere is no configuration specified for ProjecManagement.BusinessLayer.Interface.ITaskDetails\\r\\n\\r\\n1.) new TasksController(*Default of ITaskDetails*)\\r\\n2.) ProjecManagement.Services.Controllers.TasksController\\r\\n3.) Instance of ProjecManagement.Services.Controllers.TasksController\\r\\n4.) Container.GetInstance(ProjecManagement.Services.Controllers.TasksController)\\r\\n\",\"ExceptionType\":\"StructureMap.StructureMapConfigurationException\",\"StackTrace\":\"   at lambda_method(Closure , IBuildSession , IContext )\\r\\n   at StructureMap.Building.BuildPlan.Build(IBuildSession session, IContext context)\\r\\n   at StructureMap.BuildSession.BuildNewInSession(Type pluginType, Instance instance)\\r\\n   at StructureMap.Pipeline.NulloTransientCache.Get(Type pluginType, Instance instance, IBuildSession session)\\r\\n   at StructureMap.BuildSession.ResolveFromLifecycle(Type pluginType, Instance instance)\\r\\n   at StructureMap.SessionCache.GetObject(Type pluginType, Instance instance, ILifecycle lifecycle)\\r\\n   at StructureMap.SessionCache.GetDefault(Type pluginType, IPipelineGraph pipelineGraph)\\r\\n   at StructureMap.Container.GetInstance(Type pluginType)\\r\\n   at ProjecManagement.Services.App_Start.HttpControllerActivatorFactory.Create(HttpRequestMessage request, HttpControllerDescriptor controllerDescriptor, Type controllerType) in C:\\\\FSE\\\\Backup\\\\ProjectManagementService\\\\ProjectManagement.Services\\\\App_Start\\\\HttpControllerActivatorFactory.cs:line 18\\r\\n   at System.Web.Http.Controllers.HttpControllerDescriptor.CreateController(HttpRequestMessage request)\\r\\n   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()\"}"
+
+10/18/2018 5:25:16 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail, 
+Response: "{\"Message\":\"An error has occurred.\",\"ExceptionMessage\":\"No default Instance is registered and cannot be automatically determined for type 'ProjecManagement.BusinessLayer.Interface.ITaskDetails'\\r\\n\\r\\nThere is no configuration specified for ProjecManagement.BusinessLayer.Interface.ITaskDetails\\r\\n\\r\\n1.) new TasksController(*Default of ITaskDetails*)\\r\\n2.) ProjecManagement.Services.Controllers.TasksController\\r\\n3.) Instance of ProjecManagement.Services.Controllers.TasksController\\r\\n4.) Container.GetInstance(ProjecManagement.Services.Controllers.TasksController)\\r\\n\",\"ExceptionType\":\"StructureMap.StructureMapConfigurationException\",\"StackTrace\":\"   at lambda_method(Closure , IBuildSession , IContext )\\r\\n   at StructureMap.Building.BuildPlan.Build(IBuildSession session, IContext context)\\r\\n   at StructureMap.BuildSession.BuildNewInSession(Type pluginType, Instance instance)\\r\\n   at StructureMap.Pipeline.NulloTransientCache.Get(Type pluginType, Instance instance, IBuildSession session)\\r\\n   at StructureMap.BuildSession.ResolveFromLifecycle(Type pluginType, Instance instance)\\r\\n   at StructureMap.SessionCache.GetObject(Type pluginType, Instance instance, ILifecycle lifecycle)\\r\\n   at StructureMap.SessionCache.GetDefault(Type pluginType, IPipelineGraph pipelineGraph)\\r\\n   at StructureMap.Container.GetInstance(Type pluginType)\\r\\n   at ProjecManagement.Services.App_Start.HttpControllerActivatorFactory.Create(HttpRequestMessage request, HttpControllerDescriptor controllerDescriptor, Type controllerType) in C:\\\\FSE\\\\Backup\\\\ProjectManagementService\\\\ProjectManagement.Services\\\\App_Start\\\\HttpControllerActivatorFactory.cs:line 18\\r\\n   at System.Web.Http.Controllers.HttpControllerDescriptor.CreateController(HttpRequestMessage request)\\r\\n   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()\"}"
+
+10/18/2018 5:25:16 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"AA\",\"StartDate\":\"2018-07-01T00:00:00\",\"EndDate\":\"2019-12-20T00:00:00\",\"Priority\":40,\"Manager\":\"\",\"UserId\":0,\"NumberOfTasks\":0,\"Completed\":\"Yes\"},{\"ProjectId\":2,\"ProjectName\":\"MAH\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2020-10-19T00:00:00\",\"Priority\":0,\"Manager\":\"MahendraKumar  Muthu\",\"UserId\":1,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}]"
+
+10/18/2018 5:25:19 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"AA\",\"StartDate\":\"2018-07-01T00:00:00\",\"EndDate\":\"2019-12-20T00:00:00\",\"Priority\":40,\"Manager\":\"\",\"UserId\":0,\"NumberOfTasks\":0,\"Completed\":\"Yes\"},{\"ProjectId\":2,\"ProjectName\":\"MAH\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2020-10-19T00:00:00\",\"Priority\":0,\"Manager\":\"MahendraKumar  Muthu\",\"UserId\":1,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}]"
+
+10/18/2018 5:25:27 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":1,\"FirstName\":\"MahendraKumar \",\"LastName\":\"Muthu\",\"EmployeeId\":559925,\"ProjectId\":2,\"TaskId\":0}]"
+
+10/18/2018 5:25:28 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"AA\",\"StartDate\":\"2018-07-01T00:00:00\",\"EndDate\":\"2019-12-20T00:00:00\",\"Priority\":40,\"Manager\":\"\",\"UserId\":0,\"NumberOfTasks\":0,\"Completed\":\"Yes\"},{\"ProjectId\":2,\"ProjectName\":\"MAH\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2020-10-19T00:00:00\",\"Priority\":0,\"Manager\":\"MahendraKumar  Muthu\",\"UserId\":1,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}]"
+
+10/18/2018 5:25:28 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":1,\"FirstName\":\"MahendraKumar \",\"LastName\":\"Muthu\",\"EmployeeId\":559925,\"ProjectId\":2,\"TaskId\":0}]"
+
+10/18/2018 5:45:05 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "{\"Message\":\"An error has occurred.\",\"ExceptionMessage\":\"No default Instance is registered and cannot be automatically determined for type 'ProjecManagement.Business.Interface.IUserDetails'\\r\\n\\r\\nThere is no configuration specified for ProjecManagement.Business.Interface.IUserDetails\\r\\n\\r\\n1.) new UserDetailController(*Default of IUserDetails*, *Default of IErrorLog*)\\r\\n2.) ProjecManagement.Services.Controllers.UserDetailController\\r\\n3.) Instance of ProjecManagement.Services.Controllers.UserDetailController\\r\\n4.) Container.GetInstance(ProjecManagement.Services.Controllers.UserDetailController)\\r\\n\",\"ExceptionType\":\"StructureMap.StructureMapConfigurationException\",\"StackTrace\":\"   at lambda_method(Closure , IBuildSession , IContext )\\r\\n   at StructureMap.Building.BuildPlan.Build(IBuildSession session, IContext context)\\r\\n   at StructureMap.BuildSession.BuildNewInSession(Type pluginType, Instance instance)\\r\\n   at StructureMap.Pipeline.NulloTransientCache.Get(Type pluginType, Instance instance, IBuildSession session)\\r\\n   at StructureMap.BuildSession.ResolveFromLifecycle(Type pluginType, Instance instance)\\r\\n   at StructureMap.SessionCache.GetObject(Type pluginType, Instance instance, ILifecycle lifecycle)\\r\\n   at StructureMap.SessionCache.GetDefault(Type pluginType, IPipelineGraph pipelineGraph)\\r\\n   at StructureMap.Container.GetInstance(Type pluginType)\\r\\n   at ProjecManagement.Services.App_Start.HttpControllerActivatorFactory.Create(HttpRequestMessage request, HttpControllerDescriptor controllerDescriptor, Type controllerType) in C:\\\\FSE\\\\Backup\\\\ProjectManagementService\\\\ProjectManagement.Services\\\\App_Start\\\\HttpControllerActivatorFactory.cs:line 18\\r\\n   at System.Web.Http.Controllers.HttpControllerDescriptor.CreateController(HttpRequestMessage request)\\r\\n   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()\"}"
+
+10/18/2018 5:45:06 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail/parent-tasks, 
+Response: "{\"Message\":\"An error has occurred.\",\"ExceptionMessage\":\"No default Instance is registered and cannot be automatically determined for type 'ProjecManagement.BusinessLayer.Interface.ITaskDetails'\\r\\n\\r\\nThere is no configuration specified for ProjecManagement.BusinessLayer.Interface.ITaskDetails\\r\\n\\r\\n1.) new TasksController(*Default of ITaskDetails*)\\r\\n2.) ProjecManagement.Services.Controllers.TasksController\\r\\n3.) Instance of ProjecManagement.Services.Controllers.TasksController\\r\\n4.) Container.GetInstance(ProjecManagement.Services.Controllers.TasksController)\\r\\n\",\"ExceptionType\":\"StructureMap.StructureMapConfigurationException\",\"StackTrace\":\"   at lambda_method(Closure , IBuildSession , IContext )\\r\\n   at StructureMap.Building.BuildPlan.Build(IBuildSession session, IContext context)\\r\\n   at StructureMap.BuildSession.BuildNewInSession(Type pluginType, Instance instance)\\r\\n   at StructureMap.Pipeline.NulloTransientCache.Get(Type pluginType, Instance instance, IBuildSession session)\\r\\n   at StructureMap.BuildSession.ResolveFromLifecycle(Type pluginType, Instance instance)\\r\\n   at StructureMap.SessionCache.GetObject(Type pluginType, Instance instance, ILifecycle lifecycle)\\r\\n   at StructureMap.SessionCache.GetDefault(Type pluginType, IPipelineGraph pipelineGraph)\\r\\n   at StructureMap.Container.GetInstance(Type pluginType)\\r\\n   at ProjecManagement.Services.App_Start.HttpControllerActivatorFactory.Create(HttpRequestMessage request, HttpControllerDescriptor controllerDescriptor, Type controllerType) in C:\\\\FSE\\\\Backup\\\\ProjectManagementService\\\\ProjectManagement.Services\\\\App_Start\\\\HttpControllerActivatorFactory.cs:line 18\\r\\n   at System.Web.Http.Controllers.HttpControllerDescriptor.CreateController(HttpRequestMessage request)\\r\\n   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()\"}"
+
+10/18/2018 5:45:07 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail/parent-tasks, 
+Response: "{\"Message\":\"An error has occurred.\",\"ExceptionMessage\":\"No default Instance is registered and cannot be automatically determined for type 'ProjecManagement.BusinessLayer.Interface.ITaskDetails'\\r\\n\\r\\nThere is no configuration specified for ProjecManagement.BusinessLayer.Interface.ITaskDetails\\r\\n\\r\\n1.) new TasksController(*Default of ITaskDetails*)\\r\\n2.) ProjecManagement.Services.Controllers.TasksController\\r\\n3.) Instance of ProjecManagement.Services.Controllers.TasksController\\r\\n4.) Container.GetInstance(ProjecManagement.Services.Controllers.TasksController)\\r\\n\",\"ExceptionType\":\"StructureMap.StructureMapConfigurationException\",\"StackTrace\":\"   at lambda_method(Closure , IBuildSession , IContext )\\r\\n   at StructureMap.Building.BuildPlan.Build(IBuildSession session, IContext context)\\r\\n   at StructureMap.BuildSession.BuildNewInSession(Type pluginType, Instance instance)\\r\\n   at StructureMap.Pipeline.NulloTransientCache.Get(Type pluginType, Instance instance, IBuildSession session)\\r\\n   at StructureMap.BuildSession.ResolveFromLifecycle(Type pluginType, Instance instance)\\r\\n   at StructureMap.SessionCache.GetObject(Type pluginType, Instance instance, ILifecycle lifecycle)\\r\\n   at StructureMap.SessionCache.GetDefault(Type pluginType, IPipelineGraph pipelineGraph)\\r\\n   at StructureMap.Container.GetInstance(Type pluginType)\\r\\n   at ProjecManagement.Services.App_Start.HttpControllerActivatorFactory.Create(HttpRequestMessage request, HttpControllerDescriptor controllerDescriptor, Type controllerType) in C:\\\\FSE\\\\Backup\\\\ProjectManagementService\\\\ProjectManagement.Services\\\\App_Start\\\\HttpControllerActivatorFactory.cs:line 18\\r\\n   at System.Web.Http.Controllers.HttpControllerDescriptor.CreateController(HttpRequestMessage request)\\r\\n   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()\"}"
+
+10/18/2018 5:45:07 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "{\"Message\":\"An error has occurred.\",\"ExceptionMessage\":\"No default Instance is registered and cannot be automatically determined for type 'ProjecManagement.Business.Interface.IUserDetails'\\r\\n\\r\\nThere is no configuration specified for ProjecManagement.Business.Interface.IUserDetails\\r\\n\\r\\n1.) new UserDetailController(*Default of IUserDetails*, *Default of IErrorLog*)\\r\\n2.) ProjecManagement.Services.Controllers.UserDetailController\\r\\n3.) Instance of ProjecManagement.Services.Controllers.UserDetailController\\r\\n4.) Container.GetInstance(ProjecManagement.Services.Controllers.UserDetailController)\\r\\n\",\"ExceptionType\":\"StructureMap.StructureMapConfigurationException\",\"StackTrace\":\"   at lambda_method(Closure , IBuildSession , IContext )\\r\\n   at StructureMap.Building.BuildPlan.Build(IBuildSession session, IContext context)\\r\\n   at StructureMap.BuildSession.BuildNewInSession(Type pluginType, Instance instance)\\r\\n   at StructureMap.Pipeline.NulloTransientCache.Get(Type pluginType, Instance instance, IBuildSession session)\\r\\n   at StructureMap.BuildSession.ResolveFromLifecycle(Type pluginType, Instance instance)\\r\\n   at StructureMap.SessionCache.GetObject(Type pluginType, Instance instance, ILifecycle lifecycle)\\r\\n   at StructureMap.SessionCache.GetDefault(Type pluginType, IPipelineGraph pipelineGraph)\\r\\n   at StructureMap.Container.GetInstance(Type pluginType)\\r\\n   at ProjecManagement.Services.App_Start.HttpControllerActivatorFactory.Create(HttpRequestMessage request, HttpControllerDescriptor controllerDescriptor, Type controllerType) in C:\\\\FSE\\\\Backup\\\\ProjectManagementService\\\\ProjectManagement.Services\\\\App_Start\\\\HttpControllerActivatorFactory.cs:line 18\\r\\n   at System.Web.Http.Controllers.HttpControllerDescriptor.CreateController(HttpRequestMessage request)\\r\\n   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()\"}"
+
+10/18/2018 5:45:08 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"AA\",\"StartDate\":\"2018-07-01T00:00:00\",\"EndDate\":\"2019-12-20T00:00:00\",\"Priority\":40,\"Manager\":\"\",\"UserId\":0,\"NumberOfTasks\":0,\"Completed\":\"Yes\"},{\"ProjectId\":2,\"ProjectName\":\"MAH\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2020-10-19T00:00:00\",\"Priority\":0,\"Manager\":\"MahendraKumar  Muthu\",\"UserId\":1,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}]"
+
+10/18/2018 5:45:10 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"AA\",\"StartDate\":\"2018-07-01T00:00:00\",\"EndDate\":\"2019-12-20T00:00:00\",\"Priority\":40,\"Manager\":\"\",\"UserId\":0,\"NumberOfTasks\":0,\"Completed\":\"Yes\"},{\"ProjectId\":2,\"ProjectName\":\"MAH\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2020-10-19T00:00:00\",\"Priority\":0,\"Manager\":\"MahendraKumar  Muthu\",\"UserId\":1,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}]"
+
+10/18/2018 5:45:42 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "{\"Message\":\"An error has occurred.\",\"ExceptionMessage\":\"No default Instance is registered and cannot be automatically determined for type 'ProjecManagement.Business.Interface.IUserDetails'\\r\\n\\r\\nThere is no configuration specified for ProjecManagement.Business.Interface.IUserDetails\\r\\n\\r\\n1.) new UserDetailController(*Default of IUserDetails*, *Default of IErrorLog*)\\r\\n2.) ProjecManagement.Services.Controllers.UserDetailController\\r\\n3.) Instance of ProjecManagement.Services.Controllers.UserDetailController\\r\\n4.) Container.GetInstance(ProjecManagement.Services.Controllers.UserDetailController)\\r\\n\",\"ExceptionType\":\"StructureMap.StructureMapConfigurationException\",\"StackTrace\":\"   at lambda_method(Closure , IBuildSession , IContext )\\r\\n   at StructureMap.Building.BuildPlan.Build(IBuildSession session, IContext context)\\r\\n   at StructureMap.BuildSession.BuildNewInSession(Type pluginType, Instance instance)\\r\\n   at StructureMap.Pipeline.NulloTransientCache.Get(Type pluginType, Instance instance, IBuildSession session)\\r\\n   at StructureMap.BuildSession.ResolveFromLifecycle(Type pluginType, Instance instance)\\r\\n   at StructureMap.SessionCache.GetObject(Type pluginType, Instance instance, ILifecycle lifecycle)\\r\\n   at StructureMap.SessionCache.GetDefault(Type pluginType, IPipelineGraph pipelineGraph)\\r\\n   at StructureMap.Container.GetInstance(Type pluginType)\\r\\n   at ProjecManagement.Services.App_Start.HttpControllerActivatorFactory.Create(HttpRequestMessage request, HttpControllerDescriptor controllerDescriptor, Type controllerType) in C:\\\\FSE\\\\Backup\\\\ProjectManagementService\\\\ProjectManagement.Services\\\\App_Start\\\\HttpControllerActivatorFactory.cs:line 18\\r\\n   at System.Web.Http.Controllers.HttpControllerDescriptor.CreateController(HttpRequestMessage request)\\r\\n   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()\"}"
+
+10/18/2018 6:18:20 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "{\"Message\":\"An error has occurred.\",\"ExceptionMessage\":\"No default Instance is registered and cannot be automatically determined for type 'ProjecManagement.Business.Interface.IUserDetails'\\r\\n\\r\\nThere is no configuration specified for ProjecManagement.Business.Interface.IUserDetails\\r\\n\\r\\n1.) new UserDetailController(*Default of IUserDetails*, *Default of IErrorLog*)\\r\\n2.) ProjecManagement.Services.Controllers.UserDetailController\\r\\n3.) Instance of ProjecManagement.Services.Controllers.UserDetailController\\r\\n4.) Container.GetInstance(ProjecManagement.Services.Controllers.UserDetailController)\\r\\n\",\"ExceptionType\":\"StructureMap.StructureMapConfigurationException\",\"StackTrace\":\"   at lambda_method(Closure , IBuildSession , IContext )\\r\\n   at StructureMap.Building.BuildPlan.Build(IBuildSession session, IContext context)\\r\\n   at StructureMap.BuildSession.BuildNewInSession(Type pluginType, Instance instance)\\r\\n   at StructureMap.Pipeline.NulloTransientCache.Get(Type pluginType, Instance instance, IBuildSession session)\\r\\n   at StructureMap.BuildSession.ResolveFromLifecycle(Type pluginType, Instance instance)\\r\\n   at StructureMap.SessionCache.GetObject(Type pluginType, Instance instance, ILifecycle lifecycle)\\r\\n   at StructureMap.SessionCache.GetDefault(Type pluginType, IPipelineGraph pipelineGraph)\\r\\n   at StructureMap.Container.GetInstance(Type pluginType)\\r\\n   at ProjecManagement.Services.App_Start.HttpControllerActivatorFactory.Create(HttpRequestMessage request, HttpControllerDescriptor controllerDescriptor, Type controllerType) in C:\\\\FSE\\\\Backup\\\\ProjectManagementService\\\\ProjectManagement.Services\\\\App_Start\\\\HttpControllerActivatorFactory.cs:line 18\\r\\n   at System.Web.Http.Controllers.HttpControllerDescriptor.CreateController(HttpRequestMessage request)\\r\\n   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()\"}"
+
+10/18/2018 6:19:25 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "{\"Message\":\"An error has occurred.\",\"ExceptionMessage\":\"No default Instance is registered and cannot be automatically determined for type 'ProjecManagement.Business.Interface.IUserDetails'\\r\\n\\r\\nThere is no configuration specified for ProjecManagement.Business.Interface.IUserDetails\\r\\n\\r\\n1.) new UserDetailController(*Default of IUserDetails*, *Default of IErrorLog*)\\r\\n2.) ProjecManagement.Services.Controllers.UserDetailController\\r\\n3.) Instance of ProjecManagement.Services.Controllers.UserDetailController\\r\\n4.) Container.GetInstance(ProjecManagement.Services.Controllers.UserDetailController)\\r\\n\",\"ExceptionType\":\"StructureMap.StructureMapConfigurationException\",\"StackTrace\":\"   at lambda_method(Closure , IBuildSession , IContext )\\r\\n   at StructureMap.Building.BuildPlan.Build(IBuildSession session, IContext context)\\r\\n   at StructureMap.BuildSession.BuildNewInSession(Type pluginType, Instance instance)\\r\\n   at StructureMap.Pipeline.NulloTransientCache.Get(Type pluginType, Instance instance, IBuildSession session)\\r\\n   at StructureMap.BuildSession.ResolveFromLifecycle(Type pluginType, Instance instance)\\r\\n   at StructureMap.SessionCache.GetObject(Type pluginType, Instance instance, ILifecycle lifecycle)\\r\\n   at StructureMap.SessionCache.GetDefault(Type pluginType, IPipelineGraph pipelineGraph)\\r\\n   at StructureMap.Container.GetInstance(Type pluginType)\\r\\n   at ProjecManagement.Services.App_Start.HttpControllerActivatorFactory.Create(HttpRequestMessage request, HttpControllerDescriptor controllerDescriptor, Type controllerType) in C:\\\\FSE\\\\Backup\\\\ProjectManagementService\\\\ProjectManagement.Services\\\\App_Start\\\\HttpControllerActivatorFactory.cs:line 18\\r\\n   at System.Web.Http.Controllers.HttpControllerDescriptor.CreateController(HttpRequestMessage request)\\r\\n   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()\"}"
+
+10/18/2018 6:21:26 AM INFO Request Uri: GET http://localhost:3758/api/UserDetail, 
+Response: "[{\"UserId\":1,\"FirstName\":\"MahendraKumar \",\"LastName\":\"Muthu\",\"EmployeeId\":559925,\"ProjectId\":2,\"TaskId\":0}]"
+
+10/18/2018 6:33:35 AM INFO Request Uri: GET http://localhost:3758/api/UserDetail, 
+Response: "[{\"UserId\":1,\"FirstName\":\"MahendraKumar \",\"LastName\":\"Muthu\",\"EmployeeId\":559925,\"ProjectId\":2,\"TaskId\":0}]"
+
+10/18/2018 6:37:27 AM INFO Request Uri: OPTIONS http://localhost:3758/API/UserDetail, 
+
+10/18/2018 6:37:30 AM INFO Request Uri: POST http://localhost:3758/API/UserDetail, 
+Request: '{"userId":null,"firstName":"MahendraKumar ","lastName":"Muthu","employeeId":559924}'
+
+10/18/2018 6:37:34 AM INFO Request Uri: GET http://localhost:3758/API/UserDetail/NaN, 
+Response: "{\"Message\":\"The request is invalid.\",\"MessageDetail\":\"The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Http.IHttpActionResult GetById(Int32)' in 'ProjecManagement.Services.Controllers.UserDetailController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.\"}"
+
+10/18/2018 6:37:34 AM INFO Request Uri: GET http://localhost:3758/API/UserDetail/NaN, 
+Response: "{\"Message\":\"The request is invalid.\",\"MessageDetail\":\"The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Http.IHttpActionResult GetById(Int32)' in 'ProjecManagement.Services.Controllers.UserDetailController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.\"}"
+
+10/18/2018 6:37:34 AM INFO Request Uri: GET http://localhost:3758/API/UserDetail, 
+Response: "[{\"UserId\":1,\"FirstName\":\"MahendraKumar \",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":0}]"
+
+10/18/2018 6:37:34 AM INFO Request Uri: GET http://localhost:3758/API/UserDetail, 
+Response: "[{\"UserId\":1,\"FirstName\":\"MahendraKumar \",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":0}]"
+
+10/18/2018 6:39:07 AM INFO Request Uri: OPTIONS http://localhost:3758/Api/UserDetail, 
+
+10/18/2018 6:39:08 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail/NaN, 
+Response: "{\"Message\":\"The request is invalid.\",\"MessageDetail\":\"The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Http.IHttpActionResult GetById(Int32)' in 'ProjecManagement.Services.Controllers.UserDetailController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.\"}"
+
+10/18/2018 6:39:08 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail/NaN, 
+Response: "{\"Message\":\"The request is invalid.\",\"MessageDetail\":\"The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Http.IHttpActionResult GetById(Int32)' in 'ProjecManagement.Services.Controllers.UserDetailController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.\"}"
+
+10/18/2018 6:39:09 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[]"
+
+10/18/2018 6:39:09 AM INFO Request Uri: POST http://localhost:3758/Api/UserDetail, 
+Request: '{"userId":0,"firstName":"MahendraKumar","lastName":"Muthu","employeeId":559924}'
+
+10/18/2018 6:39:13 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail/NaN, 
+Response: "{\"Message\":\"The request is invalid.\",\"MessageDetail\":\"The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Http.IHttpActionResult GetById(Int32)' in 'ProjecManagement.Services.Controllers.UserDetailController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.\"}"
+
+10/18/2018 6:39:13 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":0}]"
+
+10/18/2018 6:39:14 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail/NaN, 
+Response: "{\"Message\":\"The request is invalid.\",\"MessageDetail\":\"The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Http.IHttpActionResult GetById(Int32)' in 'ProjecManagement.Services.Controllers.UserDetailController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.\"}"
+
+10/18/2018 6:39:46 AM INFO Request Uri: OPTIONS http://localhost:3758/Api/UserDetail, 
+
+10/18/2018 6:39:47 AM INFO Request Uri: POST http://localhost:3758/Api/UserDetail, 
+Request: '{"userId":null,"firstName":"TESTUser","lastName":"TEST","employeeId":58845}'
+
+10/18/2018 6:39:47 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail/NaN, 
+Response: "{\"Message\":\"The request is invalid.\",\"MessageDetail\":\"The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Http.IHttpActionResult GetById(Int32)' in 'ProjecManagement.Services.Controllers.UserDetailController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.\"}"
+
+10/18/2018 6:39:47 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":0},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":0,\"TaskId\":0}]"
+
+10/18/2018 6:39:47 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail/NaN, 
+Response: "{\"Message\":\"The request is invalid.\",\"MessageDetail\":\"The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Http.IHttpActionResult GetById(Int32)' in 'ProjecManagement.Services.Controllers.UserDetailController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.\"}"
+
+10/18/2018 6:40:04 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":0},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":0,\"TaskId\":0}]"
+
+10/18/2018 6:40:04 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":0},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":0,\"TaskId\":0}]"
+
+10/18/2018 6:40:05 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "{\"Message\":\"An error has occurred.\",\"ExceptionMessage\":\"No default Instance is registered and cannot be automatically determined for type 'ProjecManagement.BusinessLayer.Interface.IProjectDetailsBL'\\r\\n\\r\\nThere is no configuration specified for ProjecManagement.BusinessLayer.Interface.IProjectDetailsBL\\r\\n\\r\\n1.) new ProjectsController(*Default of IProjectDetailsBL*)\\r\\n2.) ProjecManagement.Services.Controllers.ProjectsController\\r\\n3.) Instance of ProjecManagement.Services.Controllers.ProjectsController\\r\\n4.) Container.GetInstance(ProjecManagement.Services.Controllers.ProjectsController)\\r\\n\",\"ExceptionType\":\"StructureMap.StructureMapConfigurationException\",\"StackTrace\":\"   at lambda_method(Closure , IBuildSession , IContext )\\r\\n   at StructureMap.Building.BuildPlan.Build(IBuildSession session, IContext context)\\r\\n   at StructureMap.BuildSession.BuildNewInSession(Type pluginType, Instance instance)\\r\\n   at StructureMap.Pipeline.NulloTransientCache.Get(Type pluginType, Instance instance, IBuildSession session)\\r\\n   at StructureMap.BuildSession.ResolveFromLifecycle(Type pluginType, Instance instance)\\r\\n   at StructureMap.SessionCache.GetObject(Type pluginType, Instance instance, ILifecycle lifecycle)\\r\\n   at StructureMap.SessionCache.GetDefault(Type pluginType, IPipelineGraph pipelineGraph)\\r\\n   at StructureMap.Container.GetInstance(Type pluginType)\\r\\n   at ProjecManagement.Services.App_Start.HttpControllerActivatorFactory.Create(HttpRequestMessage request, HttpControllerDescriptor controllerDescriptor, Type controllerType) in C:\\\\FSE\\\\Backup\\\\ProjectManagementService\\\\ProjectManagement.Services\\\\App_Start\\\\HttpControllerActivatorFactory.cs:line 18\\r\\n   at System.Web.Http.Controllers.HttpControllerDescriptor.CreateController(HttpRequestMessage request)\\r\\n   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()\"}"
+
+10/18/2018 6:40:16 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":0},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":0,\"TaskId\":0}]"
+
+10/18/2018 6:40:16 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":0},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":0,\"TaskId\":0}]"
+
+10/18/2018 6:44:28 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[]"
+
+10/18/2018 6:44:28 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":0},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":0,\"TaskId\":0}]"
+
+10/18/2018 6:44:28 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":0},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":0,\"TaskId\":0}]"
+
+10/18/2018 6:44:40 AM INFO Request Uri: OPTIONS http://localhost:3758/Api/ProjectDetail, 
+
+10/18/2018 6:44:41 AM INFO Request Uri: POST http://localhost:3758/Api/ProjectDetail, 
+Request: '{"projectId":0,"projectName":"TESTProject","setStartAndEndDate":true,"startDate":"2018-10-18","endDate":"2018-10-19","priority":55,"manager":"TESTUser TEST","userId":3}'
+
+10/18/2018 6:44:50 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":0},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":0}]"
+
+10/18/2018 6:44:51 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":0},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":0}]"
+
+10/18/2018 6:44:51 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}]"
+
+10/18/2018 6:45:04 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":0},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":0}]"
+
+10/18/2018 6:45:04 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":0},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":0}]"
+
+10/18/2018 6:45:08 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}]"
+
+10/18/2018 6:45:22 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":0},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":0}]"
+
+10/18/2018 6:45:22 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}]"
+
+10/18/2018 6:45:53 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}]"
+
+10/18/2018 6:45:53 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":0},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":0}]"
+
+10/18/2018 6:45:53 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":0},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":0}]"
+
+10/18/2018 6:45:55 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":0},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":0}]"
+
+10/18/2018 6:45:55 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":0},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":0}]"
+
+10/18/2018 6:45:55 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}]"
+
+10/18/2018 6:47:13 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail/parent-tasks, 
+Response: "[]"
+
+10/18/2018 6:47:13 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":0},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":0}]"
+
+10/18/2018 6:47:13 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}]"
+
+10/18/2018 6:47:13 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail/parent-tasks, 
+Response: "[]"
+
+10/18/2018 6:47:13 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":0},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":0}]"
+
+10/18/2018 6:47:13 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}]"
+
+10/18/2018 6:47:13 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":0},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":0}]"
+
+10/18/2018 6:47:13 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":0},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":0}]"
+
+10/18/2018 6:47:13 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}]"
+
+10/18/2018 6:47:50 AM INFO Request Uri: OPTIONS http://localhost:3758/Api/TaskDetail, 
+
+10/18/2018 6:47:50 AM INFO Request Uri: POST http://localhost:3758/Api/TaskDetail, 
+Request: '{"taskId":0,"taskName":"Project KickOff","projectId":1,"projectName":"TESTProject","isParentTask":false,"parentTaskId":0,"parentTaskName":"","managerId":3,"managerName":"TESTUser TEST"}'
+
+10/18/2018 6:47:50 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}]"
+
+10/18/2018 6:47:50 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail, 
+Response: "[]"
+
+10/18/2018 6:47:50 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail, 
+Response: "[]"
+
+10/18/2018 6:47:50 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}]"
+
+10/18/2018 6:48:00 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail, 
+Response: "[]"
+
+10/18/2018 6:48:04 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail, 
+Response: "[]"
+
+10/18/2018 6:48:08 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail, 
+Response: "[]"
+
+10/18/2018 6:48:10 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":0},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":0}]"
+
+10/18/2018 6:48:10 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\"}]"
+
+10/18/2018 6:48:10 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":0},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":0}]"
+
+10/18/2018 6:48:10 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}]"
+
+10/18/2018 6:48:10 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\"}]"
+
+10/18/2018 6:48:10 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}]"
+
+10/18/2018 6:48:12 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":0},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":0}]"
+
+10/18/2018 6:48:12 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":0},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":0}]"
+
+10/18/2018 6:48:12 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}]"
+
+10/18/2018 6:48:13 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":0},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":0}]"
+
+10/18/2018 6:48:13 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\"}]"
+
+10/18/2018 6:48:13 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}]"
+
+10/18/2018 6:48:13 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":0},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":0}]"
+
+10/18/2018 6:48:13 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\"}]"
+
+10/18/2018 6:48:13 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}]"
+
+10/18/2018 6:48:14 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":0},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":0}]"
+
+10/18/2018 6:48:14 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}]"
+
+10/18/2018 6:48:14 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":0},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":0}]"
+
+10/18/2018 6:48:18 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\"}]"
+
+10/18/2018 6:48:18 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":0},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":0}]"
+
+10/18/2018 6:48:18 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}]"
+
+10/18/2018 6:48:18 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\"}]"
+
+10/18/2018 6:48:18 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":0},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":0}]"
+
+10/18/2018 6:48:18 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}]"
+
+10/18/2018 6:48:44 AM INFO Request Uri: OPTIONS http://localhost:3758/Api/TaskDetail, 
+
+10/18/2018 6:48:44 AM INFO Request Uri: POST http://localhost:3758/Api/TaskDetail, 
+Request: '{"taskId":0,"taskName":"Project Planning","projectId":1,"projectName":"TESTProject","isParentTask":false,"priority":52,"parentTaskId":1,"parentTaskName":"Project KickOff","startDate":"2018-10-18","endDate":"2018-10-19","managerId":3,"managerName":"TESTUser TEST"}'
+
+10/18/2018 6:48:44 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":1,\"Completed\":\"No\"}]"
+
+10/18/2018 6:48:44 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"Project Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":52,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"ManagerId\":3,\"ManagerName\":\"TESTUser TEST\",\"Status\":\"No\"}]"
+
+10/18/2018 6:48:44 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":1,\"Completed\":\"No\"}]"
+
+10/18/2018 6:48:44 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"Project Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":52,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"ManagerId\":3,\"ManagerName\":\"TESTUser TEST\",\"Status\":\"No\"}]"
+
+10/18/2018 6:48:50 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":0},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":1}]"
+
+10/18/2018 6:48:50 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\"}]"
+
+10/18/2018 6:48:50 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":1,\"Completed\":\"No\"}]"
+
+10/18/2018 6:48:50 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":0},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":1}]"
+
+10/18/2018 6:48:50 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\"}]"
+
+10/18/2018 6:48:50 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":1,\"Completed\":\"No\"}]"
+
+10/18/2018 6:49:14 AM INFO Request Uri: OPTIONS http://localhost:3758/Api/TaskDetail, 
+
+10/18/2018 6:49:14 AM INFO Request Uri: POST http://localhost:3758/Api/TaskDetail, 
+Request: '{"taskId":0,"taskName":"Sprint Planning","projectId":1,"projectName":"TESTProject","isParentTask":false,"priority":59,"parentTaskId":1,"parentTaskName":"Project KickOff","startDate":"2018-10-18","endDate":"2018-10-19","managerId":3,"managerName":"TESTUser TEST"}'
+
+10/18/2018 6:49:14 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 6:49:14 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"Project Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":52,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":2,\"TaskName\":\"Sprint Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":59,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"ManagerId\":3,\"ManagerName\":\"TESTUser TEST\",\"Status\":\"No\"}]"
+
+10/18/2018 6:49:14 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 6:49:14 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"Project Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":52,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":2,\"TaskName\":\"Sprint Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":59,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"ManagerId\":3,\"ManagerName\":\"TESTUser TEST\",\"Status\":\"No\"}]"
+
+10/18/2018 6:49:25 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":0},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 6:49:25 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\"}]"
+
+10/18/2018 6:49:25 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":0},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 6:49:25 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 6:49:25 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\"}]"
+
+10/18/2018 6:49:25 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 6:49:34 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":0},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 6:49:39 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 6:49:39 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 6:49:39 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"Project Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":52,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":2,\"TaskName\":\"Sprint Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":59,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"ManagerId\":3,\"ManagerName\":\"TESTUser TEST\",\"Status\":\"No\"}]"
+
+10/18/2018 6:49:39 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"Project Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":52,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":2,\"TaskName\":\"Sprint Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":59,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"ManagerId\":3,\"ManagerName\":\"TESTUser TEST\",\"Status\":\"No\"}]"
+
+10/18/2018 6:49:47 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"Project Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":52,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":2,\"TaskName\":\"Sprint Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":59,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"ManagerId\":3,\"ManagerName\":\"TESTUser TEST\",\"Status\":\"No\"}]"
+
+10/18/2018 6:49:52 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":0},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 6:49:52 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\"}]"
+
+10/18/2018 6:49:52 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":0},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 6:49:52 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\"}]"
+
+10/18/2018 6:49:52 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 6:49:52 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail/2, 
+Response: "{\"TaskId\":2,\"TaskName\":\"Sprint Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":59,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"ManagerId\":3,\"ManagerName\":\"TESTUser TEST\",\"Status\":\"No\"}"
+
+10/18/2018 6:49:52 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 6:49:52 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail/2, 
+Response: "{\"TaskId\":2,\"TaskName\":\"Sprint Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":59,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"ManagerId\":3,\"ManagerName\":\"TESTUser TEST\",\"Status\":\"No\"}"
+
+10/18/2018 6:49:57 AM INFO Request Uri: OPTIONS http://localhost:3758/Api/TaskDetail, 
+
+10/18/2018 6:49:58 AM INFO Request Uri: POST http://localhost:3758/Api/TaskDetail, 
+Request: '{"taskId":2,"taskName":"Sprint Planning","projectId":1,"projectName":"TESTProject","isParentTask":false,"priority":59,"parentTaskId":1,"parentTaskName":"Project KickOff","startDate":"2018-10-18","endDate":"2018-10-19","managerId":2,"managerName":"MahendraKumar Muthu"}'
+
+10/18/2018 6:49:58 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 6:49:58 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"Project Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":52,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":2,\"TaskName\":\"Sprint Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":59,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"ManagerId\":2,\"ManagerName\":\"MahendraKumar Muthu\",\"Status\":\"No\"}]"
+
+10/18/2018 6:49:58 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 6:49:58 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"Project Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":52,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":2,\"TaskName\":\"Sprint Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":59,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"ManagerId\":2,\"ManagerName\":\"MahendraKumar Muthu\",\"Status\":\"No\"}]"
+
+10/18/2018 6:50:04 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 6:50:04 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 6:50:04 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 6:50:09 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail/1, 
+Response: "{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}"
+
+10/18/2018 6:50:09 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail/1, 
+Response: "{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}"
+
+10/18/2018 6:50:14 AM INFO Request Uri: OPTIONS http://localhost:3758/Api/ProjectDetail, 
+
+10/18/2018 6:50:14 AM INFO Request Uri: POST http://localhost:3758/Api/ProjectDetail, 
+Request: '{"projectId":1,"projectName":"TESTProject","setStartAndEndDate":false,"startDate":"2018-10-18","endDate":"2018-10-19","priority":55,"manager":"TESTUser TEST","userId":3}'
+
+10/18/2018 6:50:18 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 6:50:18 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"Project Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":52,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":2,\"TaskName\":\"Sprint Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":59,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"ManagerId\":2,\"ManagerName\":\"MahendraKumar Muthu\",\"Status\":\"No\"}]"
+
+10/18/2018 6:50:18 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 6:50:18 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"Project Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":52,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":2,\"TaskName\":\"Sprint Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":59,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"ManagerId\":2,\"ManagerName\":\"MahendraKumar Muthu\",\"Status\":\"No\"}]"
+
+10/18/2018 6:50:22 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 6:50:22 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\"}]"
+
+10/18/2018 6:50:22 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 6:50:22 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 6:50:22 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\"}]"
+
+10/18/2018 6:50:22 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail/1, 
+Response: "{\"TaskId\":1,\"TaskName\":\"Project Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":52,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"}"
+
+10/18/2018 6:50:22 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 6:50:22 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail/1, 
+Response: "{\"TaskId\":1,\"TaskName\":\"Project Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":52,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"}"
+
+10/18/2018 6:50:25 AM INFO Request Uri: OPTIONS http://localhost:3758/Api/TaskDetail, 
+
+10/18/2018 6:50:25 AM INFO Request Uri: POST http://localhost:3758/Api/TaskDetail, 
+Request: '{"taskId":1,"taskName":"Project Planning","projectId":1,"projectName":"TESTProject","isParentTask":false,"priority":52,"parentTaskId":1,"parentTaskName":"Project KickOff","startDate":"2018-10-18","endDate":"2018-10-19","managerId":0,"managerName":""}'
+
+10/18/2018 6:50:25 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 6:50:25 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"Project Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":52,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":2,\"TaskName\":\"Sprint Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":59,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"ManagerId\":2,\"ManagerName\":\"MahendraKumar Muthu\",\"Status\":\"No\"}]"
+
+10/18/2018 6:50:25 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 6:50:25 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"Project Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":52,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":2,\"TaskName\":\"Sprint Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":59,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"ManagerId\":2,\"ManagerName\":\"MahendraKumar Muthu\",\"Status\":\"No\"}]"
+
+10/18/2018 6:50:33 AM INFO Request Uri: OPTIONS http://localhost:3758/Api/TaskDetail/complete, 
+
+10/18/2018 6:50:33 AM INFO Request Uri: POST http://localhost:3758/Api/TaskDetail/complete, 
+Request: '{"TaskId":1,"TaskName":"Project Planning","ProjectId":1,"ProjectName":"TESTProject","Priority":52,"ParentTaskId":1,"ParentTaskName":"Project KickOff","StartDate":"2018-10-18T00:00:00","EndDate":"2018-10-19T00:00:00","ManagerId":0,"ManagerName":"","Status":"No"}'
+Response: "[{\"TaskId\":1,\"TaskName\":\"Project Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":52,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-18T06:50:33.571071-04:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"Yes\"},{\"TaskId\":2,\"TaskName\":\"Sprint Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":59,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"ManagerId\":2,\"ManagerName\":\"MahendraKumar Muthu\",\"Status\":\"No\"}]"
+
+10/18/2018 6:51:33 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"Project Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":52,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-18T06:50:33.57\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"Yes\"},{\"TaskId\":2,\"TaskName\":\"Sprint Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":59,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"ManagerId\":2,\"ManagerName\":\"MahendraKumar Muthu\",\"Status\":\"No\"}]"
+
+10/18/2018 6:54:40 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 6:54:40 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 6:54:40 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 6:55:13 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 6:55:13 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"Project Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":52,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-18T06:50:33.57\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"Yes\"},{\"TaskId\":2,\"TaskName\":\"Sprint Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":59,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"ManagerId\":2,\"ManagerName\":\"MahendraKumar Muthu\",\"Status\":\"No\"}]"
+
+10/18/2018 6:55:13 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 6:55:13 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"Project Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":52,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-18T06:50:33.57\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"Yes\"},{\"TaskId\":2,\"TaskName\":\"Sprint Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":59,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"ManagerId\":2,\"ManagerName\":\"MahendraKumar Muthu\",\"Status\":\"No\"}]"
+
+10/18/2018 7:03:31 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:05:08 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:27:52 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:28:41 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:29:41 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:30:57 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:31:05 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:31:10 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:31:27 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:31:55 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:32:03 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:35:13 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:36:55 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:37:59 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:38:09 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:38:14 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:45:13 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:45:20 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:45:20 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\"}]"
+
+10/18/2018 7:45:20 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:45:20 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 7:45:20 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\"}]"
+
+10/18/2018 7:45:20 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 7:45:21 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:46:09 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:46:17 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:46:17 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:46:17 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 7:46:17 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:46:17 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\"}]"
+
+10/18/2018 7:46:17 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 7:46:17 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:46:17 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\"}]"
+
+10/18/2018 7:46:17 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 7:46:18 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:46:18 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 7:46:18 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"Project Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":52,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-18T06:50:33.57\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"Yes\"},{\"TaskId\":2,\"TaskName\":\"Sprint Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":59,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"ManagerId\":2,\"ManagerName\":\"MahendraKumar Muthu\",\"Status\":\"No\"}]"
+
+10/18/2018 7:46:18 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 7:46:18 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"Project Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":52,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-18T06:50:33.57\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"Yes\"},{\"TaskId\":2,\"TaskName\":\"Sprint Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":59,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"ManagerId\":2,\"ManagerName\":\"MahendraKumar Muthu\",\"Status\":\"No\"}]"
+
+10/18/2018 7:46:20 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:46:20 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:46:20 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 7:46:37 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:46:37 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:46:37 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 7:46:43 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:46:43 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:46:43 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 7:46:46 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:46:46 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:46:46 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 7:46:46 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:46:46 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 7:46:46 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:46:46 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\"}]"
+
+10/18/2018 7:46:46 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\"}]"
+
+10/18/2018 7:46:46 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 7:46:47 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:46:48 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 7:46:48 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"Project Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":52,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-18T06:50:33.57\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"Yes\"},{\"TaskId\":2,\"TaskName\":\"Sprint Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":59,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"ManagerId\":2,\"ManagerName\":\"MahendraKumar Muthu\",\"Status\":\"No\"}]"
+
+10/18/2018 7:46:48 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 7:46:48 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"Project Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":52,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-18T06:50:33.57\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"Yes\"},{\"TaskId\":2,\"TaskName\":\"Sprint Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":59,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"ManagerId\":2,\"ManagerName\":\"MahendraKumar Muthu\",\"Status\":\"No\"}]"
+
+10/18/2018 7:49:21 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 7:49:21 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"Project Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":52,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-18T06:50:33.57\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"Yes\"},{\"TaskId\":2,\"TaskName\":\"Sprint Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":59,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"ManagerId\":2,\"ManagerName\":\"MahendraKumar Muthu\",\"Status\":\"No\"}]"
+
+10/18/2018 7:49:21 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 7:49:21 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"Project Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":52,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-18T06:50:33.57\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"Yes\"},{\"TaskId\":2,\"TaskName\":\"Sprint Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":59,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"ManagerId\":2,\"ManagerName\":\"MahendraKumar Muthu\",\"Status\":\"No\"}]"
+
+10/18/2018 7:49:25 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:49:25 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:49:25 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 7:49:26 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:49:26 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\"}]"
+
+10/18/2018 7:49:26 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 7:49:26 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:49:26 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\"}]"
+
+10/18/2018 7:49:26 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 7:49:27 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:49:28 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 7:49:28 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 7:49:28 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"Project Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":52,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-18T06:50:33.57\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"Yes\"},{\"TaskId\":2,\"TaskName\":\"Sprint Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":59,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"ManagerId\":2,\"ManagerName\":\"MahendraKumar Muthu\",\"Status\":\"No\"}]"
+
+10/18/2018 7:49:28 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"Project Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":52,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-18T06:50:33.57\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"Yes\"},{\"TaskId\":2,\"TaskName\":\"Sprint Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":59,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"ManagerId\":2,\"ManagerName\":\"MahendraKumar Muthu\",\"Status\":\"No\"}]"
+
+10/18/2018 7:49:28 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:49:28 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:49:28 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 7:49:29 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:49:29 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\"}]"
+
+10/18/2018 7:49:29 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:49:29 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 7:49:29 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\"}]"
+
+10/18/2018 7:49:29 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 7:49:29 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:49:30 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 7:49:30 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"Project Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":52,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-18T06:50:33.57\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"Yes\"},{\"TaskId\":2,\"TaskName\":\"Sprint Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":59,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"ManagerId\":2,\"ManagerName\":\"MahendraKumar Muthu\",\"Status\":\"No\"}]"
+
+10/18/2018 7:49:30 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 7:49:30 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"Project Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":52,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-18T06:50:33.57\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"Yes\"},{\"TaskId\":2,\"TaskName\":\"Sprint Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":59,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"ManagerId\":2,\"ManagerName\":\"MahendraKumar Muthu\",\"Status\":\"No\"}]"
+
+10/18/2018 7:49:32 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:49:32 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:49:32 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 7:49:33 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:49:33 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\"}]"
+
+10/18/2018 7:49:33 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 7:49:33 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\"}]"
+
+10/18/2018 7:49:33 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:49:33 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 7:49:33 AM INFO Request Uri: GET http://localhost:3758/Api/UserDetail, 
+Response: "[{\"UserId\":2,\"FirstName\":\"MahendraKumar\",\"LastName\":\"Muthu\",\"EmployeeId\":559924,\"ProjectId\":0,\"TaskId\":2},{\"UserId\":3,\"FirstName\":\"TESTUser\",\"LastName\":\"TEST\",\"EmployeeId\":58845,\"ProjectId\":1,\"TaskId\":2}]"
+
+10/18/2018 7:49:34 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 7:49:34 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"Project Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":52,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-18T06:50:33.57\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"Yes\"},{\"TaskId\":2,\"TaskName\":\"Sprint Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":59,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"ManagerId\":2,\"ManagerName\":\"MahendraKumar Muthu\",\"Status\":\"No\"}]"
+
+10/18/2018 7:49:34 AM INFO Request Uri: GET http://localhost:3758/Api/ProjectDetail, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"Priority\":55,\"Manager\":\"TESTUser TEST\",\"UserId\":3,\"NumberOfTasks\":2,\"Completed\":\"No\"}]"
+
+10/18/2018 7:49:34 AM INFO Request Uri: GET http://localhost:3758/Api/TaskDetail, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"Project Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":52,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-18T06:50:33.57\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"Yes\"},{\"TaskId\":2,\"TaskName\":\"Sprint Planning\",\"ProjectId\":1,\"ProjectName\":\"TESTProject\",\"Priority\":59,\"ParentTaskId\":1,\"ParentTaskName\":\"Project KickOff\",\"StartDate\":\"2018-10-18T00:00:00\",\"EndDate\":\"2018-10-19T00:00:00\",\"ManagerId\":2,\"ManagerName\":\"MahendraKumar Muthu\",\"Status\":\"No\"}]"
+

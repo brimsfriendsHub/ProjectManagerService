@@ -1,0 +1,14 @@
+C:\FSE\FSE\ProjectManagementService\ProjectManagementService\ProjectManagement.Entities\bin\Release\ProjectManagement.EntityLayer.dll
+C:\FSE\FSE\ProjectManagementService\ProjectManagementService\ProjectManagement.Entities\bin\Release\ProjectManagement.EntityLayer.pdb
+C:\FSE\FSE\ProjectManagementService\ProjectManagementService\ProjectManagement.Entities\bin\Release\Newtonsoft.Json.dll
+C:\FSE\FSE\ProjectManagementService\ProjectManagementService\ProjectManagement.Entities\bin\Release\System.Net.Http.Formatting.dll
+C:\FSE\FSE\ProjectManagementService\ProjectManagementService\ProjectManagement.Entities\bin\Release\System.Web.Cors.dll
+C:\FSE\FSE\ProjectManagementService\ProjectManagementService\ProjectManagement.Entities\bin\Release\System.Web.Http.Cors.dll
+C:\FSE\FSE\ProjectManagementService\ProjectManagementService\ProjectManagement.Entities\bin\Release\System.Web.Http.dll
+C:\FSE\FSE\ProjectManagementService\ProjectManagementService\ProjectManagement.Entities\bin\Release\Newtonsoft.Json.xml
+C:\FSE\FSE\ProjectManagementService\ProjectManagementService\ProjectManagement.Entities\bin\Release\System.Net.Http.Formatting.xml
+C:\FSE\FSE\ProjectManagementService\ProjectManagementService\ProjectManagement.Entities\bin\Release\System.Web.Http.xml
+C:\FSE\FSE\ProjectManagementService\ProjectManagementService\ProjectManagement.Entities\bin\Release\System.Web.Http.Cors.xml
+C:\FSE\FSE\ProjectManagementService\ProjectManagementService\ProjectManagement.Entities\obj\Release\ProjectManagement.EntityLayer.csprojResolveAssemblyReference.cache
+C:\FSE\FSE\ProjectManagementService\ProjectManagementService\ProjectManagement.Entities\obj\Release\ProjectManagement.EntityLayer.dll
+C:\FSE\FSE\ProjectManagementService\ProjectManagementService\ProjectManagement.Entities\obj\Release\ProjectManagement.EntityLayer.pdb
