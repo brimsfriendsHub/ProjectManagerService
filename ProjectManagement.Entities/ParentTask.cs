@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ProjecManagement.EntityLayer
 {
-    [Table("ParentTask")]
+    [Table("Parent_Task_Table")]
     public class ParentTask
     {
         [Key]

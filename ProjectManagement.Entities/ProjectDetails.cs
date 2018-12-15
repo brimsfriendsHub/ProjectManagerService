@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ProjecManagement.EntityLayer
 {
-    [Table("Projects")]
+    [Table("Project_Table")]
     public class ProjectDetails
     {
         [Key]

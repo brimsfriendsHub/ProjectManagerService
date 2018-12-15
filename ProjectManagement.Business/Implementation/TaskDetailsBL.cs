@@ -41,8 +41,9 @@ namespace ProjecManagement.BusinessLayer.Implementation
         public void SaveTaskDetils(TaskViewModel model)
         {
             ParentTaskViewModel parentTaskViewModel;
+            
             // Parent task
-            if (string.IsNullOrEmpty(model.ParentTaskName))
+            if (model.IsParentTask)
             {
                 parentTaskViewModel = SaveParentTask(model);
             }

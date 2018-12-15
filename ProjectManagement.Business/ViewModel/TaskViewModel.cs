@@ -16,5 +16,6 @@ namespace ProjecManagement.BusinessLayer.ViewModel
         public int ManagerId { get; set; }
         public string ManagerName { get; set; }
         public string Status { get; set; }
+        public bool IsParentTask { get; set; }
     }
 }

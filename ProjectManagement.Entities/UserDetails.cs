@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ProjecManagement.EntityLayer
 {
-    [Table("Users")]
+    [Table("Users_Table")]
     public class UserDetails
     {
         [Key]
