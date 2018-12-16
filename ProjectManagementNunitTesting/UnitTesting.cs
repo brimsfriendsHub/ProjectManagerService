@@ -16,7 +16,7 @@ namespace ProjectManagementNunitTesting
             UserDetailsViewModel Input = new UserDetailsViewModel();
             Input.FirstName = "TestUserFirstName";
             Input.LastName = "TestUserLastName";
-            Input.EmployeeId = 54321;
+            Input.EmployeeId = 10002;
             return Input;
         }
         [Test, Order(1)]
