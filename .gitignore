@@ -7,3 +7,10 @@
 /packages
 /ProjectManagement.Business/obj/Debug
 /ProjectManagement.Business/bin/Debug
+*.pdb
+*.pdb
+*.dll
+*.cache
+*.txt
+*.user
+*.pubxml
