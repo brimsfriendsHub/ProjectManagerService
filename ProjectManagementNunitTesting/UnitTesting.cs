@@ -1,5 +1,4 @@
-﻿
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using ProjecManagement.BusinessLayer.Implementation;
 using ProjecManagement.BusinessLayer.Interface;
 using ProjecManagement.BusinessLayer.ViewModel;
@@ -218,7 +217,7 @@ namespace ProjectManagementNunitTesting
         [Test, Order(7)]
         public void DeleteProjectDetail()
         {
-            int intProjectId = 5;
+            int intProjectId = 1;
 
             var Input = GetProjectInPut();
             IRepository<ProjectDetails> projectRepository = new Repository<ProjectDetails>();

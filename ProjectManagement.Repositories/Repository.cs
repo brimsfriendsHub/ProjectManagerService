@@ -33,8 +33,12 @@ namespace ProjecManagement.Repositories
         public void DeleteRecord(object id)
         {
             Entity entityToDelete = dbSet.Find(id);
-            Delete(entityToDelete);
-            SaveRecord();
+            if (entityToDelete != null)
+            {
+                Delete(entityToDelete);
+                SaveRecord();
+            }
+           
         }
         public void Delete(Entity entityToDelete)
         {

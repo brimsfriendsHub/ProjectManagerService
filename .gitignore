@@ -14,3 +14,6 @@
 *.txt
 *.user
 *.pubxml
+*.xml
+*.lastcodeanalysissucceeded
+*.cache
